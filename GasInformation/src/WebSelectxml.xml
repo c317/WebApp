@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<WebSelect>
+	<AllWebsite>
+		<WebNumber>23</WebNumber>
+		<WebMessage>
+			<Website name="中国石油新闻网" ID="1" />
+			<Website name="中国石化新闻网" ID="2" />
+			<Website name="中国海油新闻网" ID="3" />
+		<!-- 	<Website name="中国政府网" ID="4" /> -->
+			<Website name="中国国家统计局 " ID="5" />
+			<Website name="中国国家财政部" ID="6" />
+			<Website name="中国国家发改委" ID="7" />
+			<Website name="中国国土资源部" ID="8" />
+			<Website name="中国海关总署" ID="9" />
+			<Website name="中国环保部" ID="10" />
+			<Website name="中国商务部" ID="11" />
+			<Website name="塔里木油田" ID="12" />
+		<!--	<Website name="石油经济期刊" ID="13" />  -->
+			<Website name="非常规油气网" ID="14" />
+			<Website name="石油商报" ID="15" />
+			<Website name="国际石油网" ID="17" />
+			<Website name="中国能源网" ID="19" />
+			<Website name="国家石油和化工网" ID="20" />
+			<Website name="国家能源网" ID="21" />
+			<Website name="沙美石油公司" ID="22" />
+			<Website name="中国石油海外勘探开发公司" ID="23" />
+		</WebMessage>
+	</AllWebsite>
+	<Web>
+		<Website name="中国石油新闻网" ID="1">
+			<PrePostion>mirror\news.cnpc.com.cn\system</PrePostion>
+			<webWeight>5</webWeight>
+			<seed>http://news.cnpc.com.cn</seed>
+			<Module ID="01">
+				<Mod ID="00" />
+				<Mod ID="01" ClassName="z1">
+					<String Postion="图片新闻" MK="Tpxw" />
+					<String Postion="石油科技" MK="Kjjz" />
+					<String Postion="高层动态" MK="Lddt" />
+					<String Postion="行业新闻" MK="Gzdt" />
+					<String Postion="勘探・开发" MK="Ktkf" />
+				</Mod>
+				<Mod ID="02" Var="" Value="" />
+			</Module>
+			<Select>
+				<SelectTitle ID="02" />
+				<SelectTime ID="00">
+					<String ID="00" ClassName="lan41" />
+					<String ID="01" TagName="" />
+					<String ID="02" Var="" Value="" />
+				</SelectTime>
+				<SelectSource ID="00">
+					<String ID="00" ClassName="z12" />
+					<String ID="01" TagName="" Var="" />
+					<String ID="02" Var="" Value="" />
+				</SelectSource>
+				<SelectContent ID="01">
+					<String ID="00" ClassName="" />
+					<String ID="01" TagName="con" />
+					<String ID="02" Var="" Value="" />
+				</SelectContent>
+			</Select>
+		</Website>
+		<Website name="中国石化新闻网" ID="2">
+			<PrePostion>mirror\www.sinopecnews.com.cn\news\content</PrePostion>
+			<webWeight>6</webWeight>
+			<seed>http://www.sinopecnews.com.cn/</seed>
+			<Module ID="01">
+				<Mod ID="00" />
+				<Mod ID="01" ClassName="lan12">
+					<String Postion="石化要闻" MK="Gzdt" />
+					<String Postion="高层动态" MK="Lddt" />
+					<String Postion="石化海外" MK="Gjhz" />
+				<!--	<String Postion="行业国际" MK="Gjhz" />-->
+					<String Postion="行业国际" MK="Ktkf" />
+					<String Postion="行业国内" MK="Ktkf" />
+					<String Postion="热点关注" MK="Yzrd" />
+				</Mod>
+				<Mod ID="02" Var="" Value="">
+					<String Postion="" MK="" />
+				</Mod>
+			</Module>
+			<Select>
+				<SelectTitle ID="01" />
+				<SelectTime ID="00">
+					<String ID="00" ClassName="hui12" />
+					<String ID="01" TagName="" />
+					<String ID="02" Var="" Value="" />
+				</SelectTime>
+				<SelectSource ID="00">
+					<String ID="00" ClassName="hui12" />
+					<String ID="01" TagName="" Var="" />
+					<String ID="02" Var="" Value="" />
+				</SelectSource>
+				<SelectContent ID="00">
+					<String ID="00" ClassName="zw14" />
+					<String ID="01" TagName="" />
+					<String ID="02" Var="" Value="" />
+				</SelectContent>
+			</Select>
+		</Website>
+		<Website name="中国海油新闻网" ID="3">
+			<PrePostion>mirror\www.cnooc.com.cn\art</PrePostion>
+			<webWeight>6</webWeight>
+			<seed>http://www.cnooc.com.cn</seed>
+			<Module ID="02">
+				<Mod ID="00" />
+				<Mod ID="01" ClassName="" />
+				<Mod ID="02" Var="name" Value="channel">
+					<String Postion="勘探开发生产" MK="Ktkf" />
+					<String Postion="国际合作" MK="Gjhz" />
+					<String Postion="公司要闻" MK="Lddt" />
+					<String Postion="科技创新" MK="Kjjz" />
+				</Mod>
+			</Module>
+			<Select>
+				<SelectTitle ID="00" />
+				<SelectTime ID="02">
+					<String ID="00" ClassName="" />
+					<String ID="01" TagName="" />
+					<String ID="02" Var="name" Value="pubDate" />
+				</SelectTime>
+				<SelectSource ID="02">
+					<String ID="00" ClassName="" />
+					<String ID="01" TagName="" Var="" />
+					<String ID="02" Var="name" Value="source" />
+				</SelectSource>
+				<SelectContent ID="00">
+					<String ID="00" ClassName="bt_content" />
+					<String ID="01" TagName="" />
+					<String ID="02" Var="" Value="" />
+				</SelectContent>
+			</Select>
+		</Website>
+		<!--  <Website name="中国政府网" ID="4">
+			<PrePostion>mirror\www.gov.cn</PrePostion>
+			<webWeight>5</webWeight>
+			<seed>http://www.gov.cn/zhengce/</seed>
+			<Module ID="00">
+				<Mod ID="00" MK="Zcfg" />
+				<Mod ID="01" ClassName="">
+					<String Postion="" MK="" />
+				</Mod>
+				<Mod ID="02" Var="" Value="">
+					<String Postion="" MK="" />
+				</Mod>
+			</Module>
+			<Select>
+				<SelectTitle ID="02" />
+				<SelectTime ID="00">
+					<String ID="00" ClassName="pages-date" />
+					<String ID="01" TagName="" Var="" />
+					<String ID="02" Var="" Value="" />
+				</SelectTime>
+				<SelectSource ID="00">
+					<String ID="00" ClassName="pages-date" />
+					<String ID="01" TagName="" Var="" />
+					<String ID="02" Var="" Value="" />
+				</SelectSource>
+				<SelectContent ID="02">
+					<String ID="00" ClassName="" />
+					<String ID="01" TagName="" />
+					<String ID="02" Var="align" Value="left" />
+				</SelectContent>
+			</Select>
+		</Website>-->
+		<Website name="中国国家统计局" ID="5">
+			<PrePostion>mirror\www.stats.gov.cn\tjsj\sjjd\</PrePostion>
+			<webWeight>5</webWeight>
+			<seed>http://www.stats.gov.cn/tjsj/zxfb/,
+				http://www.stats.gov.cn/tjsj/zxfb/index_1.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_2.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_3.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_4.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_5.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_6.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_7.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_8.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_9.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_10.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_11.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_12.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_13.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_14.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_15.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_16.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_17.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_18.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_19.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_20.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_21.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_22.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_23.html,
+				http://www.stats.gov.cn/tjsj/zxfb/index_24.html
+			</seed>
+			<Module ID="00">
+				<Mod ID="00" MK="Tjsj" />
+				<Mod ID="01" ClassName="">
+					<String Postion="" MK="" />
+				</Mod>
+				<Mod ID="02" Var="" Value="">
+					<String Postion="" MK="" />
+				</Mod>
+			</Module>
+			<Select>
+				<SelectTitle ID="00" />
+				<SelectTime ID="00">
+					<String ID="00" ClassName="xilan_titf" />
+					<String ID="01" TagName="" />
+					<String ID="02" Var="" Value="" />
+				</SelectTime>
+				<SelectSource ID="00">
+					<String ID="00" ClassName="xilan_titf" />
+					<String ID="01" TagName="" Var="" />
+					<String ID="02" Var="" Value="" />
+				</SelectSource>
+				<SelectContent ID="00">
+					<String ID="00" ClassName="xilan_con" />
+					<String ID="01" TagName="" />
+					<String ID="02" Var="" Value="" />
+				</SelectContent>
+			</Select>
+		</Website>
+		<Website name="中国国家财政部" ID="6">
+			<PrePostion>mirror\www.mof.gov.cn\zhengwuxinxi\zhengcefabu
+			</PrePostion>
+			<webWeight>5</webWeight>
+			<seed>http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_1.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_2.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_3.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_4.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_5.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_6.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_7.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_8.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_9.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_10.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_11.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_12.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_13.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_14.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_15.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_16.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_17.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_18.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_19.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_20.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_21.htm,
+				http://www.mof.gov.cn/zhengwuxinxi/zhengcefabu/index_22.htm
+			</seed>
+			<Module ID="00">
+				<Mod ID="00" MK="Zcfg" />
+				<Mod ID="01" ClassName="">
+					<String Postion="" MK="" />
+				</Mod>
+				<Mod ID="02" Var="" Value="">
+					<String Postion="" MK="" />
+				</Mod>
+			</Module>
+			<Select>
+				<SelectTitle ID="00" />
+				<SelectTime ID="00">
+					<String ID="00" ClassName="TRS_Editor" />
+					<String ID="01" TagName="" />
+					<String ID="02" Var="" Value="" />
+				</SelectTime>
+				<SelectSource ID="00">
+					<String ID="00" ClassName="TRS_Editor" />
+					<String ID="01" TagName="" Var="" />
+					<String ID="02" Var="" Value="" />
+				</SelectSource>
+				<SelectContent ID="02">
+					<String ID="00" ClassName="" />
+					<String ID="01" TagName="" />
+					<String ID="02" Var="align" Value="justify" />
+				</SelectContent>
+			</Select>
+		</Website>
+		<Website name="中国国家发改委" ID="7">
+			<PrePostion>mirror\www.sdpc.gov.cn\xwzx\xwfb</PrePostion>
+			<webWeight>5</webWeight>
+			<seed>http://www.sdpc.gov.cn/xwzx/xwfb/,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_1.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_2.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_3.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_4.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_5.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_6.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_7.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_8.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_9.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_10.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_11.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_12.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_13.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_14.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_15.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_16.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_17.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_18.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_19.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_20.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_21.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_22.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_23.html,
+				http://www.sdpc.gov.cn/xwzx/xwfb/index_24.html
+			</seed>
+			<Module ID="00">
+				<Mod ID="00" MK="Zcfg" />
+				<Mod ID="01" Mod="">
+					<String mod="" ClassName="" Postion="" MK="" />
+					<String mod="" Var="" Postion="" Value="" MK="" />
+				</Mod>
+			</Module>
+			<Select>
+				<SelectTitle ID="00" />
+				<SelectTime ID="99"><!-- 国家发改委提供的新闻页面没有发布时间，正则表达式匹配的时间为正文里面的时间，有误！由于提取的发改委网页名字包含时间信息，特以此为标准 -->
+					<String ID="00" ClassName="Middle4_body" />
+					<String ID="01" TagName="" />
+					<String ID="02" Var="" Value="" />
+				</SelectTime>
+				<SelectSource ID="00">
+					<String ID="00" ClassName="Middle4_body" />
+					<String ID="01" TagName="" Var="" />
+					<String ID="02" Var="" Value="" />
+				</SelectSource>
+				<SelectContent ID="00">
+					<String ID="00" ClassName="txt1" />
+					<String ID="01" TagName="" />
+					<String ID="02" Var="" Value="" />
+				</SelectContent>
+			</Select>
+			</Website>
+			<Website name="中国国土资源部" ID="8">
+				<PrePostion>mirror\news.mlr.gov.cn\jrxw</PrePostion>
+				<webWeight>5</webWeight>
+				<seed>http://news.mlr.gov.cn/jrxw/index.htm
+				</seed>
+				<Module ID="00">
+					<Mod ID="00" MK="Kcgl" />
+					<Mod ID="01" ClassName="">
+						<String Postion="" MK="" />
+					</Mod>
+					<Mod ID="02" Var="" Value="">
+						<String Postion="" MK="" />
+					</Mod>
+				</Module>
+				<Select>
+					<SelectTitle ID="00" />
+					<SelectTime ID="000">
+						<String ID="00" ClassName="Gray12" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+						<String ID="000" key= "style" value = "white-space:nowrap;" />
+					</SelectTime>
+					<SelectSource ID="000">
+						<String ID="00" ClassName="Gray12" />
+						<String ID="01" TagName="" Var="" />
+						<String ID="02" Var="" Value="" />
+						<String ID="000" key= "style" value = "white-space:nowrap;" />
+					</SelectSource>
+					<SelectContent ID="00">
+						<String ID="00" ClassName="TRS_Editor" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectContent>
+				</Select>
+			</Website>
+			<Website name="中国海关总署" ID="9">
+				<PrePostion>mirror\www.customs.gov.cn\publish\portal0\tab49661
+				</PrePostion>
+				<webWeight>5</webWeight>
+				<seed>http://www.customs.gov.cn/publish/portal0/tab49661/,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page2.htm,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page3.htm,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page4.htm,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page5.htm,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page6.htm,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page7.htm,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page8.htm,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page9.htm,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page10.htm,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page11.htm,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page12.htm,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page13.htm,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page14.htm,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page15.htm,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page16.htm,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page17.htm,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page18.htm,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page19.htm,
+					http://www.customs.gov.cn/publish/portal0/tab49661/module140612/page20.htm
+				</seed>
+				<Module ID="00">
+					<Mod ID="00" MK="Tjsj" />
+					<Mod ID="01" ClassName="">
+						<String Postion="" MK="" />
+					</Mod>
+					<Mod ID="02" Var="" Value="">
+						<String Postion="" MK="" />
+					</Mod>
+				</Module>
+				<Select>
+					<SelectTitle ID="00" />
+					<SelectTime ID="00">
+						<String ID="00" ClassName="detailTime" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectTime>
+					<SelectSource ID="03">
+						<String ID="00" ClassName="" />
+						<String ID="01" TagName="" Var="" />
+						<String ID="02" Var="" Value="" />
+						<String ID="03" Source="中国海关总署" />
+					</SelectSource>
+					<SelectContent ID="00">
+						<String ID="00" ClassName="normal105" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectContent>
+				</Select>
+			</Website>
+			<Website name="中国环保部" ID="10">
+				<PrePostion>mirror\zfs.mep.gov.cn\hjjj\hjjjzcywxz</PrePostion>
+				<webWeight>5</webWeight>
+				<seed>http://zfs.mep.gov.cn/hjjj/hjjjzcywxz/,
+					http://zfs.mep.gov.cn/hjjj/hjjjzcywxz/index_1.htm,
+					http://zfs.mep.gov.cn/hjjj/hjjjzcywxz/index_2.htm,
+					http://zfs.mep.gov.cn/hjjj/hjjjzcywxz/index_3.htm,
+					http://zfs.mep.gov.cn/hjjj/hjjjzcywxz/index_4.htm,
+					http://zfs.mep.gov.cn/hjjj/hjjjzcywxz/index_5.htm,
+					http://zfs.mep.gov.cn/hjjj/hjjjzcywxz/index_6.htm,
+					http://zfs.mep.gov.cn/hjjj/hjjjzcywxz/index_7.htm
+				</seed>
+				<Module ID="00">
+					<Mod ID="00" MK="Zcfg" />
+					<Mod ID="01" ClassName="">
+						<String Postion="" MK="" />
+					</Mod>
+					<Mod ID="02" Var="" Value="">
+						<String Postion="" MK="" />
+					</Mod>
+				</Module>
+				<Select>
+					<SelectTitle ID="00" />
+					<SelectTime ID="00">
+						<String ID="00" ClassName="headInfo" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectTime>
+					<SelectSource ID="00">
+						<String ID="00" ClassName="headInfo" />
+						<String ID="01" TagName="" Var="" />
+						<String ID="02" Var="" Value="" />
+					</SelectSource>
+					<SelectContent ID="00">
+						<String ID="00" ClassName="content" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectContent>
+				</Select>
+			</Website>
+			<Website name="中国商务部" ID="11">
+				<PrePostion>mirror\www.mofcom.gov.cn\article\b</PrePostion>
+				<webWeight>5</webWeight>
+				<seed>http://www.mofcom.gov.cn/article/b/,
+					http://www.mofcom.gov.cn/article/b/c/,
+					http://www.mofcom.gov.cn/article/b/fwzl/,
+					http://www.mofcom.gov.cn/article/b/d/,
+					http://www.mofcom.gov.cn/article/b/e/,
+					http://www.mofcom.gov.cn/article/b/f/,
+					http://www.mofcom.gov.cn/article/b/bf/,
+					http://www.mofcom.gov.cn/article/b/xxfb/,
+					http://www.mofcom.gov.cn/article/b/g/
+				</seed>
+				<Module ID="00">
+					<Mod ID="00" MK="Zcfg" />
+					<Mod ID="01" ClassName="">
+						<String Postion="" MK="" />
+					</Mod>
+					<Mod ID="02" Var="" Value="">
+						<String Postion="" MK="" />
+					</Mod>
+				</Module>
+				<Select>
+					<SelectTitle ID="00" />
+					<SelectTime ID="01">
+						<String ID="00" ClassName="" />
+						<String ID="01" TagName="script" />
+						<String ID="02" Var="" Value="" />
+					</SelectTime>
+					<SelectSource ID="01">
+						<String ID="00" ClassName="" />
+						<String ID="01" TagName="script" Var="source" />
+						<String ID="02" Var="" Value="" />
+					</SelectSource>
+					<SelectContent ID="00">
+						<String ID="00" ClassName="artCon" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectContent>
+				</Select>
+			</Website>
+			<Website name="塔里木油田" ID="12">
+				<PrePostion>mirror\tlmyt.cnpc.com.cn\tlmyt\ytdt</PrePostion>
+				<webWeight>5</webWeight>
+				<seed>http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_2.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_3.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_4.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_5.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_6.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_7.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_8.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_9.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_10.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_11.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_12.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_13.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_14.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_15.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_16.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_17.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_18.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_19.shtml,
+					http://tlmyt.cnpc.com.cn/tlmyt/ytdt/common_list_20.shtml
+				</seed>
+				<Module ID="00">
+					<Mod ID="00" MK="Ktkf" />
+					<Mod ID="01" ClassName="">
+						<String Postion="" MK="" />
+					</Mod>
+					<Mod ID="02" Var="" Value="">
+						<String Postion="" MK="" />
+					</Mod>
+				</Module>
+				<Select>
+					<SelectTitle ID="00" />
+					<SelectTime ID="00">
+						<String ID="00" ClassName="footinfo" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectTime>
+					<SelectSource ID="03">
+						<String ID="00" ClassName="" />
+						<String ID="01" TagName="" Var="" />
+						<String ID="02" Var="" Value="" />
+						<String ID="03" Source="塔里木油田" />
+					</SelectSource>
+					<SelectContent ID="00">
+						<String ID="00" ClassName="ms-rtestate-field" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectContent>
+				</Select>
+			</Website>
+			<Website name="石油经济期刊" ID="13">
+				<PrePostion>mirror\www.cnki.com.cn\Article</PrePostion>
+				<webWeight>5</webWeight>
+				<seed>http://www.cnki.com.cn/Journal/J-J3-GJJJ-2015-01.htm,
+					http://www.cnki.com.cn/Journal/J-J3-GJJJ-2014-Z1.htm,
+					http://www.cnki.com.cn/Journal/J-J3-GJJJ-2014-12.htm,
+					http://www.cnki.com.cn/Journal/J-J3-GJJJ-2014-11.htm,
+					http://www.cnki.com.cn/Journal/J-J3-GJJJ-2014-10.htm,
+					http://www.cnki.com.cn/Journal/J-J3-GJJJ-2014-09.htm,
+					http://www.cnki.com.cn/Journal/J-J3-GJJJ-2014-08.htm,
+					http://www.cnki.com.cn/Journal/J-J3-GJJJ-2014-07.htm,
+					http://www.cnki.com.cn/Journal/J-J3-GJJJ-2014-06.htm,
+					http://www.cnki.com.cn/Journal/J-J3-GJJJ-2014-05.htm,
+					http://www.cnki.com.cn/Journal/J-J3-GJJJ-2014-04.htm
+				</seed>
+				<Module ID="00">
+					<Mod ID="00" MK="Yjxx" />
+					<Mod ID="01" ClassName="">
+						<String Postion="" MK="" />
+					</Mod>
+					<Mod ID="02" Var="" Value="">
+						<String Postion="" MK="" />
+					</Mod>
+				</Module>
+				<Select>
+					<SelectTitle ID="02" />
+					<SelectTime ID="">
+						<String ID="00" ClassName="" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectTime>
+					<SelectSource ID="">
+						<String ID="00" ClassName="" />
+						<String ID="01" TagName="" Var="" />
+						<String ID="02" Var="" Value="" />
+					</SelectSource>
+					<SelectContent ID="">
+						<String ID="00" ClassName="" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectContent>
+				</Select>
+			</Website>
+			<Website name="非常规油气网" ID="14">
+				<PrePostion>mirror\www.cuog.cn\html</PrePostion>
+				<webWeight>5</webWeight>
+				<seed>http://www.cuog.cn/shalegas/ep/index.html,
+					http://www.cuog.cn/shalegas/ep/list_99_2.html,
+					http://www.cuog.cn/shalegas/ep/list_99_3.html,
+					http://www.cuog.cn/shalegas/ep/list_99_4.html
+				</seed>
+				<Module ID="00">
+					<Mod ID="00" MK="Ktkf" />
+					<Mod ID="01" ClassName="">
+						<String Postion="" MK="" />
+					</Mod>
+					<Mod ID="02" Var="" Value="">
+						<String Postion="" MK="" />
+					</Mod>
+				</Module>
+				<Select>
+					<SelectTitle ID="02" />
+					<SelectTime ID="00">
+						<String ID="00" ClassName="nrx" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectTime>
+					<SelectSource ID="00">
+						<String ID="00" ClassName="nrx" />
+						<String ID="01" TagName="" Var="" />
+						<String ID="02" Var="" Value="" />
+					</SelectSource>
+					<SelectContent ID="00">
+						<String ID="00" ClassName="nr" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectContent>
+				</Select>
+			</Website>
+			<Website name="石油商报" ID="15">
+				<PrePostion>mirror</PrePostion>
+				<webWeight>1</webWeight>
+				<seed>http://www.pbnews.com.cn/</seed>
+				<Module ID="01">
+					<Mod ID="00" MK="" />
+					<Mod ID="01" ClassName="h12">
+						<String Postion="1版" MK="Gjhz" />
+						<String Postion="2版" MK="Gjhz" />
+					</Mod>
+					<Mod ID="02" Var="" Value="" />
+				</Module>
+				<Select>
+					<SelectTitle ID="02" />
+					<SelectTime ID="00">
+						<String ID="00" ClassName="z11" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectTime>
+					<SelectSource ID="00">
+						<String ID="00" ClassName="z11" />
+						<String ID="01" TagName="" Var="" />
+						<String ID="02" Var="" Value="" />
+					</SelectSource>
+					<SelectContent ID="00">
+						<String ID="00" ClassName="z14" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectContent>
+				</Select>
+			</Website>
+			<Website name="国际石油网" ID="17">
+				<PrePostion>mirror\oil.in-en.com\html</PrePostion>
+				<webWeight>5</webWeight>
+				<seed>http://oil.in-en.com/</seed>
+				<Module ID="01">
+					<Mod ID="00" MK="Yzrd" />
+					<Mod ID="01" ClassName="loalnav clear">
+						<String Postion="行" MK="Yzrd" />
+					</Mod>
+					<Mod ID="02" Var="name" Value="keywords">
+						<String Postion="油" MK="Yzrd" />
+					</Mod>
+				</Module>
+				<Select>
+					<SelectTitle ID="02" />
+					<SelectTime ID="00">
+						<String ID="00" ClassName="c_copy" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectTime>
+					<SelectSource ID="00">
+						<String ID="00" ClassName="c_copy" />
+						<String ID="01" TagName="" Var="" />
+						<String ID="02" Var="" Value="" />
+						<String ID="03" Source="" />
+					</SelectSource>
+					<SelectContent ID="00">
+						<String ID="00" ClassName="content" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectContent>
+				</Select>
+			</Website>
+			<Website name="中国能源网" ID="19">
+				<PrePostion>mirror\www.china5e.com\news</PrePostion>
+				<webWeight>5</webWeight>
+				<seed>http://www.china5e.com/news/oil-gas/index_1.html,http://www.china5e.com/news/oil-gas/index_2.html,http://www.china5e.com/news/oil-gas/index_3.html
+				</seed>
+				<Module ID="00">
+					<Mod ID="00" MK="Yzrd" />
+					<Mod ID="01" ClassName="">
+						<String Postion="" MK="" />
+					</Mod>
+					<Mod ID="02" Var="name" Value="keywords">
+						<String Postion="油" MK="Yzrd" />
+					</Mod>
+				</Module>
+				<Select>
+					<SelectTitle ID="02" />
+					<SelectTime ID="00">
+						<String ID="00" ClassName="showtitinfo" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectTime>
+					<SelectSource ID="00">
+						<String ID="00" ClassName="showtitinfo" />
+						<String ID="01" TagName="" Var="" />
+						<String ID="02" Var="" Value="" />
+						<String ID="03" Source="" />
+					</SelectSource>
+					<SelectContent ID="00">
+						<String ID="00" ClassName="showcontent" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectContent>
+				</Select>
+			</Website>
+			<Website name="国家石油和化工网" ID="20">
+				<PrePostion>mirror\www.cpcia.org.cn\html</PrePostion>
+				<webWeight>5</webWeight>
+				<seed>http://www.cpcia.org.cn/html/13/news_page1.html,http://www.cpcia.org.cn/html/13/news_page2.html,
+				http://www.cpcia.org.cn/html/19/news_page1.html,http://www.cpcia.org.cn/html/19/news_page2.html
+				</seed>
+				<Module ID="01">
+					<Mod ID="00" MK="Yzrd" />
+					<Mod ID="01" ClassName="weizhi_1">
+						<String Postion="重要新闻" MK="Yzrd" />
+						<String Postion="国际新闻" MK="Yzrd" />
+					</Mod>
+					<Mod ID="02" Var="" Value="">	
+						<String Postion="" MK="" />
+					</Mod>
+				</Module>
+				<Select>
+					<SelectTitle ID="02" />
+					<SelectTime ID="77">
+						<String ID="00" ClassName="source" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+						<String ID="77" ClassName="source"/>
+					</SelectTime>
+					<SelectSource ID="03">
+						<String ID="00" ClassName="showtitinfo" />
+						<String ID="01" TagName="" Var="" />
+						<String ID="02" Var="" Value="" />
+						<String ID="03" Source="国家石油和化工网" />
+					</SelectSource>
+					<SelectContent ID="00">
+						<String ID="00" ClassName="content" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="" Value="" />
+					</SelectContent>
+				</Select>
+			</Website>
+			<Website name="国家能源网" ID="21">
+				<PrePostion>mirror\www.ocpe.com.cn</PrePostion>
+				<webWeight>5</webWeight>
+				<seed>http://www.ocpe.com.cn/list-13.html,http://www.ocpe.com.cn/list-11.html
+				</seed>
+				<Module ID="01">
+					<Mod ID="00" MK="" />
+					<Mod ID="01" ClassName="erjimenu">
+						<String Postion="石油市场" MK="Yzrd" />
+						<String Postion="最新资讯" MK="Yzrd" />
+					</Mod>
+					<Mod ID="02" Var="" Value="">
+						<String Postion="" MK="" />
+					</Mod>
+				</Module>
+				<Select>
+					<SelectTitle ID="02" />
+					<SelectTime ID="88">
+						<String ID="00"  />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="id" Value="PrintTable" />
+						<String ID="88" Var="id" Value="PrintTable" />
+					</SelectTime>
+					<SelectSource ID="03">
+						<String ID="00" />
+						<String ID="01" TagName="" Var="" />
+						<String ID="02" Var="" Value="" />
+						<String ID="03" Source="国家能源网" />
+					</SelectSource>
+					<SelectContent ID="02">
+						<String ID="00" />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="id" Value="PrintTable" />
+					</SelectContent>
+				</Select>
+			</Website>
+			<Website name="沙美石油公司" ID="22">
+				<PrePostion>mirror\www.saudiaramco.com\en\home\news-media\news</PrePostion>
+				<webWeight>5</webWeight>
+				<seed>http://www.saudiaramco.com/en/home/news-media/news.html
+				</seed>
+				<Module ID="00">
+					<Mod ID="00" MK="Gjhz" />
+					<Mod ID="01" ClassName="erjimenu">
+						<String Postion="石油市场" MK="Yzrd" />
+					</Mod>
+					<Mod ID="02" Var="" Value="">
+						<String Postion="" MK="" />
+					</Mod>
+				</Module>
+				<Select>
+					<SelectTitle ID="02" />
+					<SelectTime ID="70">
+						<String ID="00"  />
+						<String ID="01" TagName="" />
+						<String ID="02" Var="id" Value="" />
+						<String ID="70" Var="id" Value="subheading" />
+					</SelectTime>
+					<SelectSource ID="03">
+						<String ID="00" />
+						<String ID="01" TagName="" Var="" />
+						<String ID="02" Var="" Value="" />
+						<String ID="03" Source="saudiaramco" />
+					</SelectSource>
+					<SelectContent ID="00">
+						<String ID="00" ClassName="contentBlock"/>
+						<String ID="01" TagName="siteWrapper" />
+						<String ID="02" Var="id" Value="PrintTable" />
+					</SelectContent>
+				</Select>
+			</Website>
+			<Website name="中国石油海外勘探开发公司" ID="23">
+				<PrePostion>mirror\www.oilchina.com\cnodc\syxx</PrePostion>
+				<webWeight>5</webWeight>
+				<seed>http://www.oilchina.com/cnodc/syxx/cnodc_gl.jsp?db=cnodcsykj,http://www.oilchina.com/cnodc/syxx/cnodc_gl.jsp?db=cnodcsykj&amp;page=2
+				</seed>
+				<Module ID="000">
+					<Mod ID="00" MK="Gjhz" />
+					<Mod ID="01" ClassName="erjimenu">
+						<String Postion="石油市场" MK="Yzrd" />
+					</Mod>
+					<Mod ID="02" Var="title" Value="石油新闻">
+						<String Postion="石油新闻" MK="Gzdt" />
+					</Mod>
+					<Mod ID="000">
+						<String Postion="syxw" MK="Ktkf" />
+						<String Postion="gjhz" MK="Gjhz" />
+						<String Postion="sysc" MK="Tjsj" />
+						<String Postion="sykj" MK="Kjjz" />
+						<String Postion="yw" MK="Gzdt" />
+					</Mod>
+				</Module>
+				<Select>
+					<SelectTitle ID="03" ClassName="zi13"/>
+					<SelectTime ID="000">
+						<String ID="00"  />
+						<String ID="01" TagName="zi13" />
+						<String ID="02" Var="id" Value="PrintTable" />
+						<String ID="70" Value="subheading" />
+						<String ID="000" key= "bgcolor" value = "C8E0F7" />
+					</SelectTime>
+					<SelectSource ID="000">
+						<String ID="00" />
+						<String ID="01" TagName="bgcolor" Var="C8E0F7" />
+						<String ID="02" Var="" Value="" />
+						<String ID="03" Source="saudiaramco" />
+						<String ID="000" key= "bgcolor" value = "C8E0F7" />
+					</SelectSource>
+					<SelectContent ID="00">
+						<String ID="00" ClassName="zi11"/>
+						<String ID="01" TagName="siteWrapper" />
+						<String ID="02" Var="id" Value="PrintTable" />
+					</SelectContent>
+				</Select>
+			</Website>
+	</Web>
+</WebSelect>

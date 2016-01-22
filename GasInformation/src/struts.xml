@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<constant name="struts.devMode" value="true" />
+
+
+	<package name="default" namespace="/" extends="struts-default">
+		<action name="*" class="com.gasinfo.action.indexAction" method="index">
+			<result>
+				index.jsp
+			</result>
+		</action>
+	</package>
+
+	<package name="commonUser" namespace="/commonUser" extends="struts-default">
+
+
+		<action name="search" class="com.gasinfo.action.searchAction"
+			method="search">
+			<result name="success">
+				search.jsp
+			</result>
+			<result name="error">
+				error.jsp
+			</result>
+		</action>
+		<action name="pageroll" class="com.gasinfo.action.pagerollAction"
+			method="pageroll">
+			<result name="success">
+				search.jsp
+			</result>
+		</action>
+		<action name="news" class="com.gasinfo.action.newsAction"
+			method="news">
+			<result name="success">
+				news.jsp
+			</result>
+		</action>
+		<action name="rearchNews" class="com.gasinfo.action.newsAction"
+			method="rearchNews">
+			<result name="success">
+				rearchnews.jsp
+			</result>
+		</action>
+		<action name="getData" class="com.gasinfo.action.getDataAction"
+			method="getData">
+			<result name="gzdt">
+				gzdt.jsp
+			</result>
+			<result name="zcfg">
+				zcfg.jsp
+			</result>
+			<result name="kcgl">
+				kcgl.jsp
+			</result>
+			<result name="ktkf">
+				ktkf.jsp
+			</result>
+			<result name="yqbg">
+				yqbg.jsp
+			</result>
+			<result name="kjjz">
+				kjjz.jsp
+			</result>
+			<result name="gjhz">
+				gjhz.jsp
+			</result>
+			<result name="qt">
+				qt.jsp
+			</result>
+		</action>
+
+	</package>
+
+	<package name="manager" namespace="/manager"
+		extends="struts-default,jfreechart-default">
+		
+		<action name="getWords" class="com.gasinfo.action.dealWordsAction"
+	        method="getWords">
+			<result name="success">
+				manageCkwh.jsp
+			</result>
+		</action>	
+		<action name="getWebKeyWords" class="com.gasinfo.action.dealWordsAction"
+	        method="getWebKeyWords">
+			<result name="success">
+				manageCkwh.jsp
+			</result>
+		</action>	
+		<action name="getAllWords" class="com.gasinfo.action.dealWordsAction"
+	        method="getAllWords">
+			<result name="success">
+				manageCkwh.jsp
+			</result>
+		</action>
+		
+		<action name="RemoveWords" class="com.gasinfo.action.dealWordsAction"
+	        method="RemoveWords">
+			<result name="success">
+				manageCkwh.jsp
+			</result>
+		</action>
+		<action name="RemoveWebKeyWords" class="com.gasinfo.action.dealWordsAction"
+	        method="RemoveWebKeyWords">
+			<result name="success">
+				manageCkwh.jsp
+			</result>
+		</action>
+		
+		<action name="AddWords" class="com.gasinfo.action.dealWordsAction"
+	        method="AddWords">
+			<result name="success">
+				manageCkwh.jsp
+			</result>
+		</action>
+		<action name="AddWebKeyWords" class="com.gasinfo.action.dealWordsAction"
+	        method="AddWebKeyWords">
+			<result name="success">
+				manageCkwh.jsp
+			</result>
+		</action>
+		
+		<action name="upload" class="com.gasinfo.action.UpLoadAction"
+	        method="execute">
+			<result name="success">
+				manageXzwz.jsp
+			</result>
+			<result name="error">
+				manageXzwzError.jsp
+			</result>
+		</action>
+
+		<action name="UpdateAll" class="com.gasinfo.action.UpdateAction"
+			method="UpdateAll">
+			<result name="success">
+				manageSjgx.jsp
+			</result>
+		</action>
+	
+		<action name="Update" class="com.gasinfo.action.UpdateAction"
+			method="Update">
+			<result name="success">
+				manageSjgx.jsp
+			</result>
+		</action>
+		<action name="RukuAction" class="com.gasinfo.action.RukuAction"
+			method="ruku">
+			<result name="success">
+				manageSjgx.jsp
+			</result>
+		</action>
+
+
+
+		<action name="SelectModelParaSet" class="com.gasinfo.action.SelectModelParaSetAction"
+			method="SelectModelParaSet">
+			<result name="success">
+				manageXzwz.jsp
+			</result>
+			<result name="error">
+				manageXzwzError.jsp
+			</result>
+		</action>
+		
+		<action name="SelectModelParaSet2" class="com.gasinfo.action.SelectModelParaSetAction"
+			method="SelectModelParaSet">
+			<result name="success">
+				manageXywz.jsp
+			</result>
+		</action>
+
+		<action name="modTime" class="com.gasinfo.action.modTimeAction"
+			method="modTime">
+			<result name="success">
+				manageZqcs.jsp
+			</result>
+		</action>
+
+
+		<action name="manageNewsModify" class="com.gasinfo.action.manageNewsModifyAction"
+			method="manageNewsModify">
+			<result name="success">
+				outUpdate.jsp
+			</result>
+			<result name="qtsuccess">
+				qtoutUpdate.jsp
+			</result>
+		</action>
+
+
+		<action name="DeleteSingle" class="com.gasinfo.action.manageNewsDeleteAction"
+			method="DeleteSingle">
+			<result name="success" type="chain">
+				manageNewsGet
+			</result>
+		</action>
+
+		<action name="DeleteAll" class="com.gasinfo.action.manageNewsDeleteAction"
+			method="DeleteAll">
+			<result name="success" type="chain">
+				manageNewsGet
+			</result>
+		</action>
+
+		<action name="manageNewsGet" class="com.gasinfo.action.manageNewsDeleteAction"
+			method="getJspId">
+			<result name="1">
+				manageGzdt.jsp
+			</result>
+			<result name="2">
+				manageKcgl.jsp
+			</result>
+			<result name="3">
+				manageZcfg.jsp
+			</result>
+			<result name="4">
+				manageYzrd.jsp
+			</result>
+			<result name="5">
+				manageGjhz.jsp
+			</result>
+			<result name="6">
+				manageKjjz.jsp
+			</result>
+			<result name="7">
+				manageTpxw.jsp
+			</result>
+			<result name="8">
+				manageLddt.jsp
+			</result>
+			<result name="9">
+				manageTjsj.jsp
+			</result>
+			<result name="10">
+				manageKtkf.jsp
+			</result>
+			<result name="11">
+				manageYjxx.jsp
+			</result>
+			<result name="12">
+				manageDtrd.jsp
+			</result>
+			<result name="13">
+				manageDtck.jsp
+			</result>
+		</action>
+
+
+		<action name="manageNewsModifySec" class="com.gasinfo.action.manageNewsModifySecAction"
+			method="manageNewsModifySec">
+			<result name="success">
+				update.jsp
+			</result>
+		</action>
+
+
+		<action name="manageNewsRetrieval" class="com.gasinfo.action.manageNewsRetrievalAction"
+			method="manageNewsRetrieval">
+			<result name="success">
+				manageResearch.jsp
+			</result>
+			<result name="error">
+				retrievalWarn.jsp
+			</result>
+		</action>
+
+
+		<action name="manageNewsRetrievalPage" class="com.gasinfo.action.manageNewsRetrievalAction"
+			method="retrievalPage">
+			<result name="success">
+				manageResearch.jsp
+			</result>
+		</action>
+		
+		<action name="manageNewsTitleRetrieval" class="com.gasinfo.action.manageNewsRetrievalAction"
+			method="manageNewstitleRetrieval">
+			<result name="success">
+				managetitleResearch.jsp
+			</result>
+			<result name="error">
+				retrievalWarn.jsp
+			</result>
+		</action>
+
+
+		<action name="manageNewstitleRetrievalPage" class="com.gasinfo.action.manageNewsRetrievalAction"
+			method="retrievaltitlePage">
+			<result name="success">
+				managetitleResearch.jsp
+			</result>
+		</action>
+
+
+		<action name="manageNewsDtck" class="com.gasinfo.action.manageNewsAddAction"
+			method="newsAddDtck">
+			<result name="success" type="chain">
+				manageNewsDtPage
+			</result>
+		</action>
+
+		<action name="modifyColumnName" class="com.gasinfo.action.manageNewsAddAction" method="modifyColumnName">
+  			<result name="success" type="chain">
+  				manageNewsDtPage
+  			</result> 
+  		</action>
+		
+
+		<action name="manageNewsDtrd" class="com.gasinfo.action.manageNewsAddAction"
+			method="newsAddDtrd">
+			<result name="success" type="chain">
+				manageNewsDtPage
+			</result>
+		</action>
+
+
+		<action name="manageNewsDtPage" class="com.gasinfo.action.manageNewsAddAction"
+			method="getJspId">
+			<result name="1">
+				manageGzdt.jsp
+			</result>
+			<result name="2">
+				manageKcgl.jsp
+			</result>
+			<result name="3">
+				manageZcfg.jsp
+			</result>
+			<result name="4">
+				manageYzrd.jsp
+			</result>
+			<result name="5">
+				manageGjhz.jsp
+			</result>
+			<result name="6">
+				manageKjjz.jsp
+			</result>
+			<result name="7">
+				manageTpxw.jsp
+			</result>
+			<result name="8">
+				manageLddt.jsp
+			</result>
+			<result name="9">
+				manageTjsj.jsp
+			</result>
+			<result name="10">
+				manageKtkf.jsp
+			</result>
+			<result name="11">
+				manageYjxx.jsp
+			</result>
+			<result name="12">
+				manageDtrd.jsp
+			</result>
+			<result name="13">
+				manageDtck.jsp
+			</result>
+			<result name="55">
+				search.jsp
+			</result>
+		</action>
+
+
+		<action name="getManageData" class="com.gasinfo.action.getManageDataAction"
+			method="getManageData">
+			<result name="1">
+				manageGzdt.jsp
+			</result>
+			<result name="2">
+				manageKcgl.jsp
+			</result>
+			<result name="3">
+				manageZcfg.jsp
+			</result>
+			<result name="4">
+				manageYzrd.jsp
+			</result>
+			<result name="5">
+				manageGjhz.jsp
+			</result>
+			<result name="6">
+				manageKjjz.jsp
+			</result>
+			<result name="7">
+				manageTpxw.jsp
+			</result>
+			<result name="8">
+				manageLddt.jsp
+			</result>
+			<result name="9">
+				manageTjsj.jsp
+			</result>
+			<result name="10">
+				manageKtkf.jsp
+			</result>
+			<result name="11">
+				manageYjxx.jsp
+			</result>
+			<result name="12">
+				manageDtrd.jsp
+			</result>
+			<result name="13">
+				manageDtck.jsp
+			</result>
+		</action>
+
+
+		<action name="gotoDtckPage" class="com.gasinfo.action.manageNewsDtPageAction"
+			method="gotoDtck">
+			<result name="success">
+				manageDtck.jsp
+			</result>
+		</action>
+
+
+		<action name="gotoDtrdPage" class="com.gasinfo.action.manageNewsDtPageAction"
+			method="gotoDtrd">
+			<result name="success">
+				manageDtrd.jsp
+			</result>
+		</action>
+
+		<action name="manageNews" class="com.gasinfo.action.manageNewsAction"
+			method="manageNews">
+			<result name="success">
+				manageNews.jsp
+			</result>
+		</action>
+
+
+		<action name="downloadSingle" class="com.gasinfo.action.downloadAction"
+			method="downloadSingle">
+			<result name="1">
+				manageGzdt.jsp
+			</result>
+			<result name="2">
+				manageKcgl.jsp
+			</result>
+			<result name="3">
+				manageZcfg.jsp
+			</result>
+			<result name="4">
+				manageYzrd.jsp
+			</result>
+			<result name="5">
+				manageGjhz.jsp
+			</result>
+			<result name="6">
+				manageKjjz.jsp
+			</result>
+			<result name="7">
+				manageTpxw.jsp
+			</result>
+			<result name="8">
+				manageLddt.jsp
+			</result>
+			<result name="9">
+				manageTjsj.jsp
+			</result>
+			<result name="10">
+				manageKtkf.jsp
+			</result>
+			<result name="11">
+				manageYjxx.jsp
+			</result>
+			<result name="12">
+				manageDtck.jsp
+			</result>
+			<result name="13">
+				manageDtrd.jsp
+			</result>
+		</action>
+
+
+		<action name="downloadBatch" class="com.gasinfo.action.downloadAction"
+			method="downloadBatch">
+			<result name="1">
+				manageGzdt.jsp
+			</result>
+			<result name="2">
+				manageKcgl.jsp
+			</result>
+			<result name="3">
+				manageZcfg.jsp
+			</result>
+			<result name="4">
+				manageYzrd.jsp
+			</result>
+			<result name="5">
+				manageGjhz.jsp
+			</result>
+			<result name="6">
+				manageKjjz.jsp
+			</result>
+			<result name="7">
+				manageTpxw.jsp
+			</result>
+			<result name="8">
+				manageLddt.jsp
+			</result>
+			<result name="9">
+				manageTjsj.jsp
+			</result>
+			<result name="10">
+				manageKtkf.jsp
+			</result>
+			<result name="11">
+				manageYjxx.jsp
+			</result>
+			<result name="12">
+				manageDtck.jsp
+			</result>
+			<result name="13">
+				manageDtrd.jsp
+			</result>
+		</action>
+
+
+		<action name="deleteBatch" class="com.gasinfo.action.manageNewsDeleteAction"
+			method="DeleteBatch">
+			<result name="success" type="chain">
+				manageNewsGet
+			</result>
+		</action>
+
+
+		<action name="isVisible" class="com.gasinfo.action.isVisibleAction"
+			method="isVisible">
+			<result name="1">
+				manageGzdt.jsp
+			</result>
+			<result name="2">
+				manageKcgl.jsp
+			</result>
+			<result name="3">
+				manageZcfg.jsp
+			</result>
+			<result name="4">
+				manageYzrd.jsp
+			</result>
+			<result name="5">
+				manageGjhz.jsp
+			</result>
+			<result name="6">
+				manageKjjz.jsp
+			</result>
+			<result name="7">
+				manageTpxw.jsp
+			</result>
+			<result name="8">
+				manageLddt.jsp
+			</result>
+			<result name="9">
+				manageTjsj.jsp
+			</result>
+			<result name="10">
+				manageKtkf.jsp
+			</result>
+			<result name="11">
+				manageYjxx.jsp
+			</result>
+			<result name="12">
+				manageDtck.jsp
+			</result>
+			<result name="13">
+				manageDtrd.jsp
+			</result>
+		</action>
+
+		<action name="manageXywzMaintain" class="com.gasinfo.action.manageXywzMaintainAction"
+			method="manageXywzMaintain">
+			<result name="success">
+				manageXywz.jsp
+			</result>
+		</action>
+
+		<action name="manageXywzMaintainModule" class="com.gasinfo.action.manageXywzMaintainAction"
+			method="manageXywzMaintainModule">
+			<result name="success">
+				manageXywz.jsp
+			</result>
+		</action>
+		
+		<action name="jfreechart" method="jfreeChart" class="com.gasinfo.action.ChartAction">			
+			<result name="success" type="chart">
+				<param name="height">400</param>
+				<param name="width">700</param>				
+			</result>
+			<result name="error" >
+				retrievalWarn.jsp	
+			</result>
+		</action>
+		
+		<action name="zlfxchart" method="zlfxchart" class="com.gasinfo.action.ChartAction">			
+			<result name="success" type="chart">
+				<param name="height">400</param>
+				<param name="width">700</param>				
+			</result>
+			<result name="error" >
+				retrievalWarn.jsp	
+			</result>
+		</action>
+		
+		<action name="wordtrend" method="onewordtrend" class="com.gasinfo.action.ChartAction">			
+			<result name="success" type="chart">
+				<param name="height">400</param>
+				<param name="width">700</param>				
+			</result>
+			<result name="error" >
+				retrievalWarn.jsp	
+			</result>
+		</action>
+		
+		
+		<action name="updateword" class="com.gasinfo.action.UpdateWord" method="updateWord">			
+			<result name="success">
+				manageRcfx.jsp
+			</result>
+		</action>
+		
+		<action name="UpdateblackOrWhite" class="com.gasinfo.action.UpdateWord" method="updateblackOrWhite">			
+			<result name="success">
+				manageCkwh.jsp
+			</result>
+		</action>
+		
+		<action name="updownstick" class="com.gasinfo.action.upDownAction" method="updownstick">			
+			<result name="12">
+				manageDtrd.jsp
+			</result>
+			<result name="13">
+				manageDtck.jsp
+			</result>
+		</action>
+		
+		<action name="newsModify" class="com.gasinfo.action.manageNewsModifyAction"
+			method="newsModify">
+			<result name="success">
+			manageList.jsp
+			</result>
+		</action>
+		
+		<action name="increaseData" class="com.gasinfo.action.updateIncreaseDataAction"
+			method="increaseData">
+			<result name="success">
+			manageSjgx.jsp
+			</result>
+		</action>
+		
+		<action name="exportData" class="com.gasinfo.action.updateIncreaseDataAction"
+			method="exportData">
+			<result name="success">
+			manageSjgx.jsp
+			</result>
+		</action>
+		
+		<action name="loginAction" class="com.gasinfo.action.LoginAction" 
+			method="execute">
+			<result name="success" type="chain">getManageData</result>
+			<result name="fail">manageLogin2.jsp</result>
+		</action>
+		
+		<action name="addUser" class="com.gasinfo.action.operateUserAction" method="addUser">
+			<result name="success" type="chain">
+			accountAction
+			</result>		
+		</action>
+		<action name="reUser" class="com.gasinfo.action.operateUserAction" method="reUser">
+			<result name="success" type="chain">
+			accountAction
+			</result>	
+		</action>
+		<action name="delUser" class="com.gasinfo.action.operateUserAction" method="delUser">
+			<result name="success" type="chain">
+			accountAction
+			</result>	
+		</action>
+		<action name="rePd" class="com.gasinfo.action.operateUserAction" method="rePd">
+			<result name="success">
+			myAccount.jsp
+			</result>		
+		</action>
+		<action name="accountAction" class="com.gasinfo.action.AccountAction" method="accountAction">
+			<result name="success">
+			accountNew.jsp
+			</result>
+		</action>
+		<action name="getAllUser" class="com.gasinfo.action.ManageUserAction" method="getAllUser">
+			<result name="success">
+			managePhoneUser.jsp
+			</result>
+		</action>
+		<action name="changeRole" class="com.gasinfo.action.ManageUserAction" method="changeRole">
+			<result name="success">
+			managePhoneUser.jsp
+			</result>
+		</action>
+		
+		<action name="getAllGroup" class="com.gasinfo.action.GetAllGroupsAction" method="getAllGroup">
+			<result name="success">
+			managePushNews.jsp
+			</result>
+		</action>
+		<action name="getPushNews" class="com.gasinfo.action.GetAllGroupsAction" method="getPushNews">
+			<result name="success">
+			managePushNews.jsp
+			</result>
+		</action>
+	</package>
+	
+</struts>

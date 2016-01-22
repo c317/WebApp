@@ -1,0 +1,1660 @@
+石油
+天然气
+油田
+油气
+专业
+音响
+灯光
+乐器
+展览
+参观指南
+组织者
+主办方
+展览大厅
+违者
+违犯者
+易燃
+爆炸物品
+专业观众
+普通观众
+展会概要
+展览地点
+政策法规
+中石油
+中石化
+页岩气
+center of gravity of the rig
+钻机重心		
+each leg	
+单桩腿		
+individual leg 
+单桩腿		
+loads	
+载荷	
+Local control	
+桩边控制台		
+pinion	
+小齿轮		
+torque detect cell	
+扭矩检测装置		
+Torque readings	
+扭矩读值		
+torque wrench	
+扭矩钳		
+assistant control cables	
+辅助控制电缆		
+钻井顶驱
+base skid	
+井架基座		
+Console	
+控制台		
+Control Cables	
+控制电缆		
+Driller's Control Console	
+到司钻控制台	
+genset	
+发电机组		
+J-box	
+接线箱		
+TDSU	
+顶驱辅助装置			
+top drive unit	
+顶驱装置		
+Torque Guide	
+扭矩导轨		
+VFD	
+变频房		
+hoisting capacity	
+提升能力
+quick couples connectors 	
+快速接头		
+explosion-proof	
+防爆		
+spare parts	
+备件		
+钻井顶驱
+item list	
+分项列表		
+elevator inserts	
+吊卡		
+钻井顶驱
+elevate links	
+吊环		
+钻井顶驱
+power cable	
+动力电缆
+control cable	
+控制电缆
+Cold Temperature Package	
+寒冷温度补偿包
+electric Top Drive models	
+电子顶驱模块
+gear ratio	
+齿轮比
+AC top drives	
+交流顶驱
+brief description	
+主要描述
+under development	
+开发中
+PRODUCT INFORMATION	
+产品信息
+FEATURES AND BENEFITS	
+特色与好处
+Integral Swivel	
+集成水龙头
+fatigue failures	
+疲劳故障
+threaded connections.	
+丝扣连接
+Hydraulic Torque Booster	
+液压增扭
+Precise directional control	
+精确的定向控制
+Floating Quill	
+中心浮动管
+Soft Stabbing
+Thread Advance
+Compensation
+补偿
+make-up and break-out	
+上扣卸扣
+Prevent thread damage	
+防止丝扣损伤
+Polymer Slide Guide Runners	
+聚合物滑动导轨
+falling parts	
+坠落部件
+load distribution	
+负荷分配
+conventional hook	
+常规大钩
+Duplicates the dampening effect
+Provides optimal well control	
+提供最佳井控
+Remote Actuated	
+远程启动
+Dual Lower Well Control Valves
+双下井控阀
+Upper Well Control Valve	
+上井控阀
+mud saver valve.
+Local or Remote Blower Option
+本地和远程鼓风选择
+Wireline Guide System	
+测井电缆导引装置
+Rigs Traveling Block	
+钻机游动滑车
+Disc Brake	
+盘刹
+directional orientation
+定向定位
+infinite positions	
+无穷定位
+inertia braking
+惯性刹车
+Electric Drive Motor	
+电动电机
+Vibration Control System Available	
+振动控制系统
+slip-stick	
+Pipe Handler Orientation	
+管子处理定位
+pipe handling operations	
+管子处理操作
+By-Directional Link Tilt Function	
+吊环双向倾斜功能
+Load Path Integrity	
+负荷轨迹完整性
+No Thread Connections	
+fatigue type
+故障类型
+Torque Guide	
+扭矩导轨
+Air Cooling System Intake	
+空气冷却系统通风口
+Local Blower	
+本地鼓风机
+Custom Block Interface	
+Rotary Hose Connection	
+水龙带连接
+Motor	
+电机
+Top Drive	
+顶驱
+Motor Guard	
+电机保护装置
+Gear Case	
+齿轮箱
+Link Support	
+吊环支撑
+Rotary Manifold	 
+旋转管汇
+Elevator Link	
+吊环
+Elevator	
+吊卡
+Back-up Wrench Travel	
+备用搬钳
+Technical Agreement	
+技术协议书
+TECHNICAL PROPOSAL	
+技术建议书
+PROJECT INFORMATION 	
+项目信息
+Rig No	
+钻机编号
+Application	
+Inquiry Date	
+查询日期
+Client Ref. No 	
+客户参考编号
+Location	
+井位，作业区域
+SYSTEM OVERVIEW	
+系统综述
+Portable	
+移动式
+Folding Torque Guide	
+折叠式导轨
+Conventional Mast	
+Land rig	
+陆地钻机
+Performance characteristics	
+性能特征
+attached specifications	
+附加技术规格
+Hoist Rating	
+额定提升能力
+General TD Model	
+顶驱型号
+Detail TD Model	
+详细顶驱型号
+Motor Type	
+电机类型
+AC Electric 
+交流电	
+Elevator Load Path 500 tons 	
+500吨负荷吊卡
+Quill Load Path 500 tons 	
+500吨中心浮动管负荷
+Power Rating 	
+额定功率
+Drive Config 	
+驱动配置
+CIP & VFD in TDSU 	
+Guide Config	
+导轨配置
+Power Source 	
+动力源
+Mast/Derrick:	
+井架
+Scope of Supply	
+供货范围
+Technical Specification	
+供货（产品）技术规范
+Product Guarantee	
+产品质量保证承诺
+Product commissioning & Training	
+产品出厂检验和技术培训：
+On-Site Installation & commissioning 	
+现场安装与调试
+After Sale Support 	
+售后服务
+Delivery date	
+交货期
+Top Drive System 	
+顶驱系统	
+Top Drive Unit (TDU) 
+顶驱装置
+Top drive housing  	
+顶驱机架
+mounting lugs 	
+安装支梁
+Upper Links 	
+上吊环
+Bail 	
+提环
+Main Housing	
+顶驱外壳
+Pins	
+销钉 
+Main Drive Unit	
+驱动装置
+Integral Swivel configuration 	
+水龙头总体配置
+fatigue failures 	
+疲劳损坏
+elevator load path	
+升降负载.
+Spindle	主轴
+Main bearings	
+轴承和齿轮
+单速齿轮
+single reduction ratio	
+单速齿轮传动比
+force lubrication	
+加压润滑系统
+lube pressure	
+润滑压力
+oil level monitoring system	
+油位监测系统
+Oil temperature overheat shutdown	
+油温过热停车 
+AC electric drive motor	
+交流马达
+VFD / frequency converter	
+变频器
+commensurate
+相当的
+performance improvement	
+性能改进	
+Motor cooling air outlet plenum system	
+马达冷却空气增压系统
+spark arrestor	
+火花控制器(制动装置)
+Floating quill 	
+浮动中心管
+a pin connection 	
+正规扣接头	
+hydraulic caliper disk type	
+液压盘式刹车
+Auxiliary brake	
+辅助刹车
+disc brake	
+盘式刹车	
+Torque Boost System	
+液压增扭器
+connection torque range 	
+上扣扭矩范围	
+High-torque, low-speed	
+低转速高扭矩
+hydraulic drive
+液压驱动
+Drive motor 	
+驱动马达
+planetary reduction	
+行星齿轮减速
+hydraulic engagement clutch	
+液压离合器 
+Discrete torque 	
+非连续扭矩
+control standard	
+控制标准配置	
+Pipe Handling Assembly	
+管子处理系统总成
+Rotary manifold 	
+旋转管汇
+hydraulic and air commutation	
+气路和液路
+Handler Rotate actuation	
+管子处理器旋转
+driller-controlled	
+司钻面板控制
+Handler Lock actuation	
+管子处理器锁定
+Sensor for Handler Lock verification	
+管子处理器锁定传感器
+Interlock logic 	
+互锁逻辑
+Control Console	
+控制面板
+Elevator link support 	
+吊环支撑环
+Link support 	
+吊环支撑
+counterbalance system	
+补偿平衡系统
+Link Tilt Assembly	
+吊环摆臂总成	
+Bi-directional hydraulic actuation 	
+双向液压摆臂
+along 90° plane 	
+在90°平面
+Link-tilt clamps	
+吊环摆臂卡箍
+elevator links 	
+吊环连杆
+Back-up Wrench	
+背钳
+Hydraulic Gripper   	
+液力传导
+vertical positioning 	
+垂直位置 
+die blocks 	
+钳牙块
+Pipe stabbing guide bell (5”) 
+5”钻杆导入喇叭口
+No rotary connections 	
+没有旋转连接
+elevator load path 	
+吊卡载荷通道上
+Washpipe assembly	
+冲管总成
+integrated swivel	
+集成水龙头 
+Lubrication circulating system 	
+齿轮箱润滑循环系统 
+Suction strainer	
+吸入滤清器
+electric motor	
+电动马达
+Filter 	
+过滤器
+25 micron absolute 	
+绝对值25微米
+Lube oil cooler 	
+冷却器 
+Hydraulic valves 	
+液压阀
+solenoid operated 	
+电磁控制
+auxiliary functions 	
+辅助功能 	
+Hydraulic piping, hose and fittings 	
+管子,软管和接头
+Diagnostic pressure 	
+诊断压力
+test points 	
+测试点
+tube fittings 	
+管子接头
+ORS(o-ring seal) 
+O型圈)类型
+premium sealing performance	
+密封质量	
+Instrumentation gauges 	
+仪表
+Hydraulic pressure 	
+液压
+return gauges 	
+回压表
+Lubrication pressure gauge 
+润滑油压力表
+Lubrication temperature gauge	
+润滑油温度表
+Lubrication alarm pressure switch	
+润滑油报警压力开关
+Lubrication alarm temperature switch	
+润滑油报警温度开关
+Air cooling alarm pressure switch	
+空气冷却报警压力开关
+RPM sensor	
+RPM传感器
+solenoids 	
+线圈
+starters 	
+激发器
+I/O PLC system 	
+输入/输出逻辑控制系统	
+On-Board Motor Controls 	
+马达控制系统
+blower, lube pump 	
+鼓风机、润滑泵
+Overload 	
+超负荷
+phase protection 	
+换相保护器
+Remotely re-settable 	
+遥控复位性
+Suitable for Class I, Division II 	
+适合于I类II区
+Hazardous Locations 	
+危险区域 
+Electric Service Loop 	
+电路环线
+Hydraulic Service Loop 
+液压环线
+Support brackets 	
+支撑架
+High-torque connection clamps 	
+高扭挟持器 
+LWCV connections 	
+LWCV（上控制阀）
+接口 
+OPTION	
+选择项
+Cold Temperature Kit  	
+寒冷温度包
+Upgrade Priced Separately 	
+价格另列
+cold climate applications 	
+寒冷气候应用	
+Heater 
+加热器
+Gear case 	
+齿轮盒 
+warm oil 	
+油加温
+Heat tape 	
+加热带 
+junction box 	
+接线盒
+Cold bleed valve 	
+冷出阀
+hydraulic fluid	
+液压流体 
+low viscosity 	
+低粘性
+Blower System, Local	
+马达冷却系统
+Centrifugal blower	
+离心风机
+Inertial filter	
+内置过滤器
+Ducting	
+通风管道
+Top Drive Control Console 	
+顶驱控制台
+control switches	
+控制开关 
+Drillers Console dimensions 	
+司钻控制台的尺寸
+Emergency Stop 	
+紧急停车
+Lockout controls 	
+切断控制 	
+顶驱调控旋扭
+Torque meter (analog) 	
+扭矩表(模拟式)
+Connection Torque 
+上卸扣扭矩	
+torque instrumentation 	
+扭矩仪表 
+field level compensation	
+现场深度补偿
+alarm indicator lights 	
+报警显示灯
+Audible alarm  	
+声音报警 
+Programmable Logic Controller PLC  	
+可编程逻辑控制 
+Stalled Motor Alarm 	
+马达停转故障报警
+Unwind Control 	
+反转控制器
+Connection Spin In/Out Control 	
+旋入/旋出控制器	
+Connection Torque Control 	
+上卸扣扭矩控制器 
+Control & Interface Panel 	
+控制和接口箱
+Stainless steel purgeable enclosure 	
+不锈钢正压防爆外壳
+purging system 	
+正压系统
+driller’s console	
+司钻台	
+system status 	
+系统状态
+Operaor Interface Terminal (OIT) 	
+操作终端（OIT）
+color, touch-screen 	
+彩色触摸屏
+Advanced Diagnostic System 	
+先进的诊断系统	
+Advanced Diagnostics System (ADS) 	
+先进的诊断系统(ADS) 
+intelligent assessments 	
+自动智能化地评估 
+On-line Help text 	
+联机帮助文本
+quick access 	
+快速连接
+troubleshooting instructions 	
+故障诊断说明 	
+connection failure 	
+连接故障
+control cables	
+控制线
+defective components	
+检测元件
+individual part 	
+单独部件
+out of adjustment	
+调节失控
+anticipated errors 	
+预计错误
+deviations of expected results
+预期结果偏差
+Incorrect sequence 	
+不正确的程序
+achieve expected results	
+达到预期的结果	
+touch sensitive screen	
+触摸屏
+Operator Interface Terminal 	
+操作界面终端
+correction factors 	
+校正系数	
+non-essential functions	
+非必要的功能 
+in case of an equipment failure  	
+设备出现故障的情况下
+Directional Steering Control System (DSCS) 	
+定向导向控制系统(DSCS)
+total on-bottom drilling time 	
+钻头接触井底总时间 
+sliding performance	
+定向造斜行为
+unique functions 	
+独特功能
+Oscillation Control 	
+定向振动控制
+Tool Face Orientation	
+工具面的定向	
+TDSU Top Drive Support Unit  	
+顶驱辅助系统
+TDSU Building 	
+顶驱辅助系统房
+Standard TDSU Building	
+标准顶驱辅助系统房
+Four-point crane-lift style 	
+四点吊车提升
+VFD Control Room 	
+变频器控制房
+smoke detector 	
+烟雾检测器
+fire extinguisher 	
+灭火器
+flame retardant material 	
+阻燃材料
+Skid dimensions  	
+拖撬尺寸
+VFD Variable Frequency Drive 	
+变频驱动
+Front end rectifier 	
+前端变频整流器  
+power factor load 	
+功率因数负载.
+Modular drive configuration 	
+模块驱动配置
+inverter modules 	
+带3个变极器模块
+message display panel 	
+讯息显示面板
+built-in self-diagnostics	
+内置自我诊断
+Internal air cooling system 	
+内部空冷系统
+CIP Control Interface Panel 	
+控制及接口面板（CIP）	
+Safe Area 	
+安全区域
+standard dimensions  	
+标准尺寸	
+HPU Hydrasulic Power Unit
+液压动力源(HPU)motor controls 
+马达控制器 Supply breaker 	
+断路器 
+Transfermer 	
+变压器
+Regulator  	
+调节器 
+EEPROM memory module 	
+电子可擦涂可编程只读存储内存模块 	
+Proprietary 	
+专有
+Communinations adapter 
+信号传递适配器
+Advanced Diagnostic System 	
+高级的诊断系统 
+Power supplies 	
+供电系统
+Communications interface 	
+通讯接口
+Control cables 
+控制电缆
+Dual (redundant) air conditioners	
+双空调
+relative humidity 	
+相对湿度
+Twin Hydraulic Power Unit 	
+双液压源 
+electrically driven hydraulic pump assemblies 	
+电驱动液压泵总成
+return filtration 	回压过滤
+cooling system 	冷却系统
+Stainless steel reservoir	
+不锈钢池
+Kidney loop cooling 	
+腰形回路冷却
+filtration circulation system 	
+过滤循环系统
+oil level alarm sensors 	
+油位报警传感器
+skid package 	
+撬装
+drip tray 	
+集油盘 
+maximum working pressure 	
+最大工作压力 
+displacement 	
+替换排量	
+Electrical Cables 	
+动力电缆Hydraulic Hoses 	
+液压管线
+Power Cables 	
+动力电缆
+Torque Guide 	
+扭矩导轨
+Junction Box 	
+接线盒
+Control Cables	
+控制电缆	
+Hydraulic Lines 	
+液压管线
+Torque Guide base 	
+扭矩导轨座
+Tank heaters 
+油罐加热器 
+winterization cover 	
+冬化处理盖 
+Voltage surge protection 	
+电压波动保护 
+voltage fluctuation 	
+电压浮动 Pre-commissioned 	
+设备预调试	
+electrical interface 	
+电源连接
+Generator breaker 	
+发动机断路器 
+Start-up controls 	
+启动控制
+battery system 	
+电池系统 
+emergency back-up 	
+紧急后备
+engine-generator 	
+发动机引擎
+non-drilling operations 	
+非钻井作业
+Transformer  	
+变压器
+Auxiliary Feed Breaker 
+辅助断路器
+interlocked 	
+互锁
+Generator Breaker 	
+发动机断路器 
+rig power source 	
+井队电源	
+Dual Power Upgrade 	
+双电源更新
+Plug & Play capability 
+即插即用功能	
+Independent Power 	
+独立动力
+Detailed parts description 	
+详细部件描述
+ground rod	
+接地地桩
+Electrical Interface Materials 	
+电气接口材料
+Recommended maximum run length 	
+推荐最大长度
+Run length supplied	
+提供长度
+Supply Cables	
+供电电缆	
+Feeder Breaker 	
+馈线开关
+Folded Type 	
+摺叠式
+Torque Guide	
+扭矩导轨
+torque reaction 	
+扭矩反作用
+tensional stresses 	
+扭应力
+erection of the mast. 	
+可折叠导轨	
+Cable tensioning system 	
+电缆张力系统
+hydraulic cylinders	
+液压缸
+valves, plumbing 	
+阀,管件
+mast erection analysis   	
+井架安装分析
+skid layout 	
+拖撬布局
+torque reation beam 	
+扭矩反作用梁
+Adjustable 	
+可调整的
+SSF Services Support Frame 	
+辅助装置支架(SSF)
+Upper Torque Guide Junction Box	
+上导轨接线匣 
+Mechanical Interface Materials 	
+机械接口
+Crown Hanger assembly 	
+悬挂总成
+Harpoon Assembly	
+棘爪总成
+Crown Hanger	
+天车悬挂
+auto-latching  	
+自动锁舌
+Torque Reaction Assembly 	
+扭矩反作用总成
+derrick structure	
+井架结构 	
+Control Valve Configuration 
+控制阀配置 	
+Manual Lower Well Control Valve 
+下控制阀 	
+Manual operation 
+手动操作 	
+Extended pin end 
+加长公扣接头 	
+Remote Lower Well Control Valve 
+远程下控制阀	
+Remote actuated 
+远程控制 	
+Accessories Items 
+辅助件	
+Floor Stabilizer 
+钻台扶正器 	
+radial stabilization 
+径向扶正	
+lateral drill string vibrations 
+钻柱的横向振动 	
+rough drilling conditions
+恶劣钻井条件下 	
+drive bushings 
+驱动补芯	
+Lock-down compression plugs
+压入式锁紧销	
+Hinged flaps 
+铰接活瓣	
+tool joint 接头	
+conventional slips 常规的卡瓦 	
+Wear Inserts 防磨衬垫		
+Drill Pipe Kit 钻杆配套工具 	Crossover sub.		
+转换接头
+Lower Well Control Valve （LWCV）
+下井控阀 	
+Manual Operation		
+手动操作 
+Back-up wrench die blocks  
+背钳钳牙块 	
+Pipe stabbing guide bell  
+钻杆插入导向口 	
+Floor stabilizer Wear Inserts	
+钻台扶正器防磨衬垫 
+Rated Capacity	
+额定能力
+Continuous Drill Torque	
+持续钻进扭矩
+Maximum Drilling Torque	
+最大钻进扭矩
+Maximum Boosted Torque	
+最大冲扣扭矩 
+Torque Boost System	
+液压增扭系统
+Type of Electric Motor Cooling System 	
+电机冷却系统类型 
+Local Blower	
+局部鼓风机 
+Power Supply Frequency 
+供电频率 	
+Rotating Head旋转头	
+Pipe Handler	
+管子处理器
+Elevator Link Tilt	
+吊环前倾
+Maximum Torque Break Out	
+最大卸扣扭矩 	
+Saver Sub	
+保护接头
+Electric Control System	
+电控系统
+Vendor	
+厂家
+Upper Inner Blowout Preventer (UWCV)		
+上内防喷阀
+Lower Inner Blowout Preventer (LWCV)		
+下内防喷阀
+Track Torque	
+轨道扭矩
+Monorail Torque Guide	
+单轨便携摺叠式扭矩导轨
+mounting hardware	
+安装硬件
+Motor & Swivel	
+马达和水龙头
+Integral Swivel	
+整体水龙头 
+Gear Box	
+变速箱
+Motor & Brake	
+马达和制动器 
+Cooling System
+冷却系统	
+Counterbalance System 
+平衡系统	
+Hydraulic Pressure Control System
+液压控制系统	
+Pipe Handling Device 
+管子处理装置 	
+Startup Accessories 
+启动附件 	
+Essetial Requirements 
+基本要求	
+reactive torque 
+反扭矩	
+Stall Times 
+失效时限	
+Stall Time Limit 
+失效时限 	
+Stall Alarm Time
+失效警报时间	
+hoisting capacity 
+提升能力 	
+Rate
+额定	
+Washpipe
+冲管	
+rotary hose 
+旋转软管	
+disk brake
+盘碟式制动器	
+enging cooling system
+引擎冷却系统	
+hydraulic cooling equipment 
+液压冷却设备	
+Hydraulic System 
+液压系统	
+Counterbalance System 
+平衡系统	
+closed-loop 
+全封闭	
+self charging
+自冲式	
+Pipe Handler
+管子处理装置	
+hydraulic cylinders 
+液压缸	
+Power and Control System 
+控制系统	
+high ambient temperature 
+很高环境温度	
+high efficiency 
+高效	
+air cleaners 
+空气清洁器	
+fuel cooler 
+燃油冷却器	
+desert locations 
+沙漠地区	
+Skid size
+撬房大小	
+Protection devices
+保护设施	
+surge surpression	
+Fuse break detection
+熔断探测	
+overtemperature protection 
+过温保护	
+SCR package 
+套装	
+safety interlocks	
+standard portable system 
+标准可移动系统	
+Factory acceptance test (FAT) 
+工厂验收试验 	
+end user
+最终的用户	
+standard warranty 
+标准保修单	
+review and approval
+审查和批准	
+Overall Requirement 
+总体说明	
+land rig 陆上钻机	
+test reports 试验报告	
+operational/performance test 作业/性能测试	
+Product Guarantee 质量保证承诺	
+series product 系列产品	
+warranty period 质保期限	
+acceptance report 认可备忘录	
+installation & commissioning report 安装验收报告	
+up-to-date technology最新加工工艺	
+design feature设计功能	
+API standard API标准	
+contract requirement 合同要求	
+additional equipment 附加设备	
+quality problem 质量问题	
+easy worn parts易损件	
+incorrect operation不正确的操作	
+formal notice书面通知	
+installation supervise & commissioning 安装指导和调试	
+guarantee terms 担保条款	
+Factory Commissioning & Training出厂检验和技术培训	
+air ticket & accommodation飞机票住食宿	
+local transportation当地交通	
+working lunch工作午餐	
+Installation & Commissioning安装与调试	
+custom inspection港口商品检验	
+installation schedule安装时间	
+quick connector快速接头	
+free of charge免费	
+welding machine电焊机	
+performance certificate性能证书	
+After Sale Support 售后服务	
+preventative maintenance inspection预防性维护检查	
+Delivery交货期	
+Top Drive Drilling Unit顶部驱动钻井装置	
+Bidding Documents招标文件	
+Technical Agreement技 术协议	
+Unit Name装置名称	
+AC Frequently交流变频	
+Schedule of Requirement货物需求一览表	
+Requirement of Configuration配  置  要  求	
+Diesel Engine Generator Set柴油发电机组	
+easy damage parts易损件	
+optional spare parts list备件清单	
+transmission system传动系统	
+standard configuration标准配置	
+rotary swivel hose水龙带	
+thread type扣型	
+swivel水龙头	
+back-up tongs head背钳钳头	
+back-up tongs tooth背钳钳牙	
+drill pipe stabber ring钻杆喇叭口导向环	
+self diagnosis function自诊断功能	
+protection function保护功能	
+anti-interfere ability抗干扰能力	
+shield capability屏蔽性能	
+Hydraulic pressure control system液压控制系统	
+Torque lead track
+扭矩导轨	
+reverse torque system
+反扭矩系统	
+Explosion-proof System
+防爆系统	
+Fix up clamps
+固定件	
+Support rack
+搬运架	
+Drillpipe Wear Bushing
+钻杆防磨补芯	
+Crossover Sub
+转换接头	
+Protect sub
+保护接头	
+Single Elevator
+单吊卡	
+cables Guide Frame
+电缆导向架	
+Pulley Blocks
+滑轮组	
+Spare Parts with the Unit
+随机配件	
+Spare Parts
+备件	
+proposed spare parts
+建议配件	
+Collectivity Requirement
+总体要求	
+reliable usage
+可靠	
+safe operation
+安全	
+convenience and economy
+方便、经济	
+onshore rig
+陆地钻机	
+low down maintenance cost
+低运行维护费用	
+directional well
+定向井	
+horizontal well
+水平井	
+under-balances well
+欠平衡井	
+open window side-track well
+开窗侧钻井	
+accident back-off well
+事故倒扣	
+Electric Control System
+电气控制系统	
+power supply voltage
+供电电源电压	
+modularization
+模块化	
+convenience and quickly
+方便快捷	
+hazardous natural environments
+恶劣自然环境条件	
+dustproof, resist vibrate
+防尘和抗震	
+drillstring vibratation
+钻柱震动	
+flying rings
+吊环	
+incline forwards
+前倾		
+incline backward
+后倾	
+circumrotate
+旋转	
+principal axis
+主轴			
+hydraulic elements
+液压元件	
+highly reliability
+可靠性高	
+less maintenances
+维修性好	
+link and connect quickly
+快速连接	
+safe and convenience
+安全方便	
+wellsite operating work
+现场作业	
+slip and cut drilling wire line
+倒换钻井钢丝绳	
+Technology Standard
+技术标准	
+design设计	
+manufacture制造	
+assembly装配	
+inspect检测	
+test试验	
+industry standards行业标准		
+QHSE   QHSE	
+drilling equipment specifications钻井设备规范	
+workover equipment修井设备	
+oil electrical and air equipment石油电气设备	
+production equipment采油设备	
+lifting equipment提升设备	
+floating offshore oil equipment浮动海洋石油设备	
+explosion gas爆炸性气体	
+General technical requirements
+通用技术条件	
+《International Electrical and Electronic Engineering Association Specifications》IEEE			
+《电气与电子工程师协会规范》
+Specification Data
+技术参数	
+lifting capacity
+提升能力	
+Working height
+工作高度	
+Max. drilling capacity
+最大钻井功率	
+Max. drilling torque
+最大钻井扭矩	
+break-out torque
+卸扣	
+circulation pressure
+循环压力	
+Main shaft
+主轴	
+inner diameter
+通道内径	
+Power supply input
+输入电源	
+Unlimited adjustable
+无级可调	
+modulated package
+模块包装	
+single module
+单件模块	
+no more than
+不大于	
+Technology Requirements
+技术要求	
+diesel engine generator set
+柴油发电机组	
+extremely cold
+高寒	
+highly hot
+高温	
+malfunction
+故障	
+self diagnosis
+自我诊断	
+protection features
+保护功能	
+over speed
+超速	
+Electronic module control panel
+电子模块控制面板	
+air filter
+空气滤清器	
+flexible metal exhaust vent
+柔性金属排气管	
+muffler
+消音器	
+heavy duty
+重型	
+speed control unit
+速度调节器	
+main circuit breaker
+主线断路器	
+cylinder water heater
+缸套水加热器	
+automatic battery charger
+自动电瓶充电机	
+self-charge generator
+充电发电机	
+space h eater
+发电机空间加热器	
+vibration absorber
+减震器	
+protection hood 
+护罩	
+Power factor	
+功率因素
+Starting system
+启动方式	
+Electronic motor starting
+电马达起动	
+Operation mode
+操纵方式	
+Frequency vibration
+频率稳定度	
+Intermittent
+瞬态	
+Stabilized frequency adjust rate
+稳态频率调整率	
+frequency adjust rate
+频率调整率	
+Frequency stabilizing time
+频率稳定时间	
+Frequency vibration
+频率波动率	
+adjust rate
+调整率	
+Voltage vibration
+电压波动率	
+Overload capacity
+过载能力	
+rated current
+额定电流	
+overload
+超载	
+Current wave distraction
+电压波形畸变率	
+Speed co ntrol system
+调速系统	
+fly wheel
+飞轮	
+Counter clockwise
+逆时针	
+Radiator
+水箱	
+close-loop cooling
+闭式冷却	
+Operation control mode
+操作方式	
+Locally mounted control panel
+机载式控制屏	
+Protection Classification
+防护等级	
+Rated capacity
+额定容量	
+Wire connection
+出线方式	
+Star connection
+星形	
+3-phase 4-wire
+三相四线	
+Main bus output
+母排输出	
+Voltage regulating mode
+调压方式	
+Automatic Voltage Regulator（AVR）
+自动电压调节器（AVR）	
+Exciting magnetic type
+励磁方式	
+permanent magnetic exciting
+永磁励磁	
+Isolation class
+绝缘等级	
+Power swivel
+水龙头	
+transmission system
+传动系统	
+wash pipe assembly
+冲管总成	
+air forced cooling system
+强制冷却装置	
+braking system
+制动装置	
+Explosion-proof classification
+隔爆等级	
+rotor & stator
+转子和定子	
+auto temperature measure device
+温度自动检测装置	
+overheat. 
+过热现象	
+Braking system
+制动装置	
+hydraulic control braking
+液控刹车	
+auxiliary braking
+辅助刹车	
+electric braking
+电机刹车	
+Gear Box
+减速箱	
+forced lubricated system
+强制润滑系统	
+Wash pipe assembly
+冲管	
+Gooseneck
+鹅颈管	
+thread type
+扣型	
+swivel hose
+水龙带		
+working pressure
+工作压力	
+back up tong
+背钳
+link tilt unit
+倾斜机构	
+links
+吊环	
+elevators
+吊卡	
+Rotating head
+回转头	
+main shaft
+主轴	
+clockwise
+顺时针	
+counter-clockwis
+逆时针	
+adjusting valve
+调节阀	
+link tilting system
+倾斜机构	
+Forward tilt
+前倾	
+Backward tilt
+后倾	
+Drill pipe size
+钻杆规格	
+Back tong nominal size
+背钳通径	
+crossover sub
+转换接头	
+back up tong die
+背钳钳头	
+Connection
+连接螺纹	
+Inner BOP内
+防喷装置	
+automatic shutdown controller
+自动停机控制	
+Reliable against - lighting strike system
+可靠的防雷击系统	
+AC VFD, 交流变频系统	
+Motor Control Center
+电动机控制中心	
+PLC controller
+可编程控制器	
+wire induction resistance
+进线电抗	
+current wave absorber
+浪涌抑制	
+shield capability
+屏蔽性能	
+connector plugs
+插头	
+safety limit lock up
+安全锁定功能	
+air purged explosion proof
+正压防爆	
+torque limit setting
+扭矩限定	
+emergency stop
+紧急停止	
+indicating light
+操作指示灯	
+Torque gauge
+扭矩表	
+Connect interface
+接口	
+connector plugs
+快速插头	
+installation manner
+安装方式	
+air sealed type
+密封结构	
+electrical control room
+电气控制房	
+Damp Removal Equipment
+抽湿设备	
+coagulated dew
+凝露	
+Smoke alarming device
+烟雾报警器	
+fire fighting equipment
+消防设施	
+emergency light
+应急灯	
+anti-flame materials
+阻燃材料	
+Wall sockets
+墙体插座	
+Main power cable  
+动力电缆	
+Control cable
+控制电缆	
+highly resist-flame
+高阻燃	
+highly insulation
+高绝缘	
+resist - pull & extend
+抗拉伸	
+resist -scratch fatigue
+抗挠曲疲劳	
+outside protection sheath
+外保护套	
+generator room
+发电机房	
+hydraulic pressure control valves
+液压控制阀	
+Pressure test point
+压力检测点	
+steady working condition工
+作平稳	
+explosion-proof type
+隔爆	
+Athwart Torque System
+反扭矩系统	
+Single Torque Rail
+扭矩导轨	
+“K” type derrick
+K型井架	
+installation accessories
+安装附件	
+Requirement of Data
+资料要求	
+assembly drawing
+平面安装图	
+structural drawing
+结构图	
+principle diagram
+原理图	
+electrical wire connection diagram
+接线图	
+Loading Test
+负荷试验	
+Inspect Report
+检测报告
+
+petroleum enterprise
+focus
+remark
+authoritative article
+special report
+idea
+practice
+internationalization
+particular contribution
+expert viewpoint
+VIP viewpoint
+economy outlook
+ongoing report
+administrator
+theoretical frontier
+knowledge
+system innovation
+marketing
+gas station
+human resource
+picture - in - word
+blue chip company
+governance
+management structures
+best practices
+critical aspects
+ambition
+win-win case
+oil shortage
+supply glut /overproduction
+cover figure
+international exploitation
+perspective
+cover story
+fortune
+fortune view
+observation 
+technology trend
+glimpse of science
+IMF
+PSC production share contract
+Technical Bid
+commerce, trade, trading  
+贸易
+inland trade, home trade, domestic trade, internal trade, interior trade  
+国内贸易
+international trade  
+国际贸易
+foreign trade, external trade  
+对外贸易
+外贸
+terms of trade  
+贸易条件
+free-trade area  
+自由贸易区
+import, importation  
+进口
+importer  
+进口商
+export, exportation  
+出口
+exporter  
+出口商
+commercial channels  
+商业渠道
+customs  
+海关
+customs duty  
+关税
+quota  
+配额,限额
+item  
+项目
+细目
+commercial transaction  
+买卖
+交易
+manufacturer  
+制造商
+制造厂
+middleman 
+中间商
+经纪人
+dealer 
+经销商
+wholesaler  
+批发商
+retailer  
+零售商
+tradesman  
+零售商
+merchant  
+商人 (英)批发商
+(美)零售商
+concessionaire
+licensed dealer  
+受让人
+特许权获得者
+consumer  
+消费者
+用户
+client
+customer  
+顾客
+客户
+buyer  
+买主
+买方
+stocks 
+存货
+库存量
+purchase 
+购买
+进货
+sale 
+销售
+bulk sale 
+趸售
+wholesale  
+批发
+retail   
+零售
+cash sale  
+现货
+hire-purchase  
+分期付款购买 (美作:installment plan)
+competition  
+竞争
+competitor  
+竞争者
+competitive  
+竞争的
+unfair competition  
+不合理竞争
+dumping profit margin  
+倾销差价
+倾销幅度
+trademark  
+商标
+registered trademark  
+注册商标
+registered office
+head office  
+总公司
+总店
+总部
+technical 
+proposal
+石油企业
+焦点
+透视
+言论
+权威文章
+特别报道
+理想
+实践
+实务
+国际化
+特稿
+专家视点
+权威视点
+经济了望
+行业动态
+管理者
+理论前沿
+知识
+制度创新
+市场，营销
+加油站
+人力资源
+画中话
+蓝筹股公司
+治理
+管理结构
+最佳惯例
+最重要的部分
+目标
+双赢交易
+石油短缺
+生产过剩
+封面人物
+国际开拓
+前瞻，远景
+封面故事
+财富
+财富观点
+观察
+科技潮流
+科技速览
+国际货币基金组织
+生产共享合同
+技术标书
+professional 
+audio
+light
+music instrument
+exhibition
+visitor guide
+organizer
+hall
+offender
+inflammatory 
+explosive material
+professional visitor
+ordinary visitor
+exhibition outline
+venue
