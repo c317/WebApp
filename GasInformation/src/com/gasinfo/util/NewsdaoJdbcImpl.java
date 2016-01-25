@@ -3748,4 +3748,27 @@ public class NewsdaoJdbcImpl implements Newsdao, UsersDao {
 			JdbcUtils.releaseConnection(conn);
 		}
 	}
+
+	@Override
+	public String uploadFileInputStorage(String title, String department,
+			int module, String url) {
+		Connection conn = null;
+		PreparedStatement pst = null;
+		ResultSet rs = null;
+		String sql = "insert into FileStore( fileName , department , type , URL) values(?,?,?,?)";
+		try {
+			conn = JdbcUtils.getConnection();
+			pst = conn.prepareStatement(sql);
+			pst.setString(1, title);
+			pst.setString(2, department);
+			pst.setInt(3, module);
+			pst.setString(4, url);
+			pst.execute();
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			JdbcUtils.releaseConnection(conn);
+		}
+		return "success";
+	}
 }

@@ -135,6 +135,19 @@ public interface Newsdao{
 	public ArrayList<Group> getAllGroup();
 	//获取通知公告到数据库
 	public void setNotification(String time,ArrayList<Integer> groups,String content,String publisher,String department,String title);
-
+	
+	/**
+	 * 后台上传文件录入数据库
+	 * @param title
+	 * 			上传文件的标题
+	 * @param department
+	 * 			上传文件者的部门
+	 * @param module
+	 * 			上传文件至哪个模块（1表示热点、2表示专题、3表示数据）
+	 * @param url
+	 * 			上传文件在服务器端的Url
+	 * @return
+	 */
+	public String uploadFileInputStorage(String title,String department,int module,String url);
 }
 

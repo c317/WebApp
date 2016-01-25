@@ -486,5 +486,5 @@ function delUser(i){								// accountManagement.jsp 词库删除用户
 		tmp.submit();
 		return tmp;
 		return true;
-	}	
+	}
 }
