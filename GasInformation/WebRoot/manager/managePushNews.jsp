@@ -34,7 +34,7 @@
 				</div>
 
 				<div class="col-md-10 col-xs-10 col-sm-10 col-lg-10">
-					+
+					
 					<ol class="breadcrumb">
 						<li><a href="#">消息推送</a>
 						</li>

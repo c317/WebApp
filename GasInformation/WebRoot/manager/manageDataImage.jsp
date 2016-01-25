@@ -49,7 +49,7 @@
 <body>
 	<div id="top">
 		<%
-			request.setAttribute("manageNav", "Wjhl");
+			request.setAttribute("manageNav", "Wjgl");
 		%>
 		<jsp:include page="manageNav.jsp"></jsp:include>
 	</div>
@@ -67,15 +67,13 @@
 			<div class="col-md-10 col-xs-10 col-sm-10 col-lg-10">
 					<div>
 						<ol class="breadcrumb">
-							<li><a href="#">文件管理</a>
-							</li>
-							<li><a href="#" class="active">上传文件</a>
-							</li>
+							<li>文件管理</li>
+							<li>上传文件</li>
 						</ol>
 
-						<form action="uploadFile.action" method="post"
-							enctype="multipart/form-data">
-							<div class="table-responsive">
+						
+						<div class="table-responsive">
+							<form action="#" method="post" enctype="multipart/form-data" id="fileForm" name="fileForm">
 								<table class="table table-bordered table-hover table-striped">
 									<tr>
 										<td>标题：</td>
@@ -117,23 +115,20 @@
 									</tr>
 									<tr>
 										<td colspan="2" style="text-align:center">
-											<a
-											href="javascript:;" class="file">确定上传 <input
-												type="submit" name="submitFile" id="selectFile"> </a>
-										</td>
+										<a
+											href="javascript:;" class="file">确定上传
+											 <input type="submit" name="submitFile" id="submitFile" onclick="return file(3)">
+										</a></td>
 									</tr>
-								</table>
-							</div>
-
+								</table>			
 						</form>
+						</div>
 					</div>
 
 					<div>
 						<ol class="breadcrumb">
-							<li><a href="#">文件管理</a>
-							</li>
-							<li><a href="#" class="active">上传记录</a>
-							</li>
+							<li>文件管理</li>
+							<li>上传记录</li>
 						</ol>
 
 						<div class="table-responsive">
