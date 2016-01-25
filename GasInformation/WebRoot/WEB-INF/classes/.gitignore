@@ -1,3 +1,6 @@
+/org
+/struts.xml
+/template.doc
 /HeritrixXml.xml
 /KeyWords.xml
 /RedLine.gif
@@ -6,7 +9,4 @@
 /c3p0-config.xml
 /com
 /daoconfig.properties
-/org
 /st
-/struts.xml
-/template.doc

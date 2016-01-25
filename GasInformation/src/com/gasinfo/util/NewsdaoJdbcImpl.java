@@ -1741,7 +1741,7 @@ public class NewsdaoJdbcImpl implements Newsdao, UsersDao {
 		}
 	}
 	
-	public void addTobookdb(String[] newsId, int Module, int toModule) {
+	public void addTobookdb(String[] newsId, int Module, int toModule,String time) {
 		Connection conn = null;
 		PreparedStatement ps = null;
 		ResultSet rs = null;
@@ -1752,7 +1752,7 @@ public class NewsdaoJdbcImpl implements Newsdao, UsersDao {
 		String updown = null;
 		switch (toModule) {
 		case 12:
-			sql = "insert into Dtrddb(title,Modulesource,siteSource,originSource,pubTime,content,oilField,totalWeight,webWeight,visible,charset,type,basin,company,oil,Output) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+			sql = "insert into Dtrddb(title,Modulesource,siteSource,originSource,pubTime,content,oilField,totalWeight,webWeight,visible,charset,type,basin,company,oil,Output,insertTime) values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 			updown = "update Dtrddb set updown=id where updown is NULL";
 			break;
 		case 13:
@@ -1786,6 +1786,9 @@ public class NewsdaoJdbcImpl implements Newsdao, UsersDao {
 					ps.setString(14, news.getCompany());
 					ps.setString(15, news.getOil());
 					ps.setInt(16, news.getOutput());
+					if(toModule==12) {
+						ps.setString(17, time);
+					}
 					ps.executeUpdate();
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -3682,14 +3685,67 @@ public class NewsdaoJdbcImpl implements Newsdao, UsersDao {
 
 	@Override
 	public ArrayList<Group> getAllGroup() {
-		// TODO Auto-generated method stub
-		return null;
+		ArrayList<Group> groups=new ArrayList<Group>();
+		Connection conn = null;
+		Statement st = null;
+		ResultSet rs=null;
+		String sql="select groupeName,groupId from groupe";
+		try {
+			conn = JdbcUtils.getConnection();
+			st=conn.createStatement();
+			rs=st.executeQuery(sql);
+			while(rs.next()) {
+				Group group=new Group();
+				group.setGroupID(rs.getInt("groupId"));
+				group.setGroupName(rs.getString("groupeName"));
+				groups.add(group);
+			}
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}finally {
+			JdbcUtils.releaseConnection(conn);
+		}
+		return groups;
 	}
 
 	@Override
 	public void setNotification(String time, ArrayList<Integer> groups,
-			String content, String publisher) {
-		// TODO Auto-generated method stub
-		
+			String content, String publisher,String department,String title) {
+		Connection conn = null;
+		PreparedStatement ps = null;
+		ResultSet rs=null;
+		int notiID=0;
+		String sql1="insert into Notification values(?,?,?,?,?)";
+		String sql2="select notiID from  Notification where sendTime=? and publisher=? ";
+		String sql3="insert into GroupNoti values(?,?,?)";
+		try {
+			conn = JdbcUtils.getConnection();
+			ps=conn.prepareStatement(sql1);
+			ps.setString(1,department);
+			ps.setString(2, time);
+			ps.setString(3, content);
+			ps.setString(4, publisher);
+			ps.setString(5, title);
+			ps.executeUpdate();
+			ps=conn.prepareStatement(sql2);
+			ps.setString(1, time);
+			ps.setString(2, publisher);
+			rs=ps.executeQuery();
+			if(rs.next()) {
+				notiID=rs.getInt("notiID");
+			}
+			ps=conn.prepareStatement(sql3);
+			for(int i=0;i<groups.size();i++) {
+				ps.setInt(1, groups.get(i));
+				ps.setInt(2, notiID);
+				ps.setString(3, time);
+				ps.executeUpdate();
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}finally {
+			JdbcUtils.releaseConnection(conn);
+		}
 	}
 }

@@ -1,7 +1,10 @@
 package com.gasinfo.action;
 
 import java.io.UnsupportedEncodingException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -41,7 +44,10 @@ public class manageNewsAddAction implements ServletRequestAware, Action {
 			e.printStackTrace();
 		}
 		Newsdao newsdao = DaoFactory.getInstance().getNewsDao();
-		newsdao.addTobookdb(newsId, moduleId, 13);	 
+		Date date = new Date();
+		DateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		String time = format.format(date);
+		newsdao.addTobookdb(newsId, moduleId, 13,time);	 
 		newsdao.addTobook(newsId, moduleId, 13, columnName);
 		return SUCCESS;
 	}
@@ -53,7 +59,10 @@ public class manageNewsAddAction implements ServletRequestAware, Action {
 		String[] newsId = request.getParameterValues("newsIds");
 		int moduleId = Integer.valueOf(request.getParameter("moduleId"));
 		Newsdao newsdao = DaoFactory.getInstance().getNewsDao();
-		newsdao.addTobookdb(newsId, moduleId, 12);
+		Date date = new Date();
+		DateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		String time = format.format(date);
+		newsdao.addTobookdb(newsId, moduleId, 12,time);
 		//一周热点参考没有分栏信息
 		newsdao.addTobook(newsId, moduleId, 12, null);
 		return SUCCESS;

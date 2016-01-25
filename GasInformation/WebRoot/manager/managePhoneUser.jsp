@@ -42,7 +42,7 @@
 				</div>
 
 				<div class="col-md-10 col-xs-10 col-sm-10 col-lg-10">
-<<<<<<< HEAD
+
 				
 				
 					<ol class="breadcrumb">
@@ -50,12 +50,11 @@
 						</li>
 					</ol>
 					
-=======
+
 					<ol class="breadcrumb">
 						<li><a href="#">用户管理</a>
 						</li>
 					</ol>
->>>>>>> refs/remotes/origin/master
 
 					<div class="table-responsive">
 						<form action="#" method="post" id="form1" name="form1">

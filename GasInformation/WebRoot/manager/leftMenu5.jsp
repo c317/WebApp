@@ -13,14 +13,8 @@
 		<%String menu=String.valueOf(request.getAttribute("manageLeftNav5"));%>			
 		<a href="myAccount.jsp" class="list-group-item <%="MYAT".equals(menu)?"active\"":""%>">我的信息</a>
 		<%-- <a href="accountManagement.jsp" class="list-group-item <%="ATMT".equals(menu)?"active\"":""%>">管理用户</a> --%>
-<<<<<<< HEAD
-		<a href="accountAction.action" class="list-group-item <%="ATMT".equals(menu)?"active\"":""%>">管理网站用户</a>
-		<a href="getAllUser.action" class="list-group-item <%="ATMT2".equals(menu)?"active\"":""%>">管理手机用户</a>	
-		<a href="getAllGroup.action" class="list-group-item <%="XXTS".equals(menu)?"active\"":""%>">消息推送</a>		
-</div>
-=======
 		<a href="accountAction.action" class="list-group-item <%="ATMT".equals(menu)?"active\"":""%>">管理用户</a>
-		<a href="getAllUser.action" class="list-group-item <%="ATMT2".equals(menu)?"active\"":""%>">管理手机用户</a>		</div>
->>>>>>> refs/remotes/origin/master
+		<a href="getAllUser.action" class="list-group-item <%="ATMT2".equals(menu)?"active\"":""%>">管理手机用户</a>
+		<a href="getAllGroup.action" class="list-group-item <%="XXTS".equals(menu)?"active\"":""%>">消息推送</a>		</div>
   </body>
 </html>

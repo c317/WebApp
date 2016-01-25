@@ -71,7 +71,7 @@ public interface Newsdao{
 	  * @param module 被选消息所属模块
 	  * @param toModule 插入到指定模块，12位动态参考，13为一周热点
 	 */
-	public void addTobookdb(String[] newsId, int module, int toModule);
+	public void addTobookdb(String[] newsId, int module, int toModule,String time);
 	//后台在动态参考和动态热点有生成动态热点和生成动态参考的功能
 	public ArrayList<News> downloadAll(int Module);
 	//对于数据库中热词表中没东西的时候要用到这个
@@ -134,7 +134,7 @@ public interface Newsdao{
 	//获取所有组功能
 	public ArrayList<Group> getAllGroup();
 	//获取通知公告到数据库
-	public void setNotification(String time,ArrayList<Integer> groups,String content,String publisher);
+	public void setNotification(String time,ArrayList<Integer> groups,String content,String publisher,String department,String title);
 
 }
 
