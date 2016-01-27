@@ -1,4 +1,4 @@
-//提交上传文件参数
+提交上传文件参数
 function file(id){
 		var title = document.getElementById("title").value;
 		var Index = document.getElementById("department").selectedIndex;
@@ -22,6 +22,7 @@ function file(id){
 		return limit;
 }
 
+
 //限制上传文件后缀名
 function limitExtension(type,fileName){
 	var index1 = fileName.lastIndexOf(".") + 1;    
@@ -29,9 +30,9 @@ function limitExtension(type,fileName){
 	var postf = fileName.substring(index1,index2);//后缀名
 	
 	if(type == 1 || type ==2){
-		if(postf != "doc" && postf != "docx" && postf != "pdf" 
+		if(postf != "txt" && postf != "doc" && postf != "docx" && postf != "pdf" 
 			&& postf != "xls" && postf != "xlsx"){
-			alert("请输入常用文档格式，如doc、docx、pdf、xls、xlsx等");
+			alert("请输入常用文档格式，如txt、doc、docx、pdf、xls、xlsx等");
 			return false;
 		}else
 			return true;

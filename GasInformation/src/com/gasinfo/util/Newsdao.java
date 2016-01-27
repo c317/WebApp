@@ -1,7 +1,6 @@
 package com.gasinfo.util;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public interface Newsdao{
     //后台动态热点和动态参考的清空功能
@@ -146,8 +145,17 @@ public interface Newsdao{
 	 * 			上传文件至哪个模块（1表示热点、2表示专题、3表示数据）
 	 * @param url
 	 * 			上传文件在服务器端的Url
+	 * @param picName
+	 * 			图片名
 	 * @return
 	 */
-	public String uploadFileInputStorage(String title,String department,int module,String url);
+	public String uploadFileInputStorage(String title,String department,int module,String url,String picName);
+	
+	/**
+	 * 通过类别获取上传文件列表
+	 * @param type
+	 * @return
+	 */
+	public ArrayList<HashMap<String, Object>> getFileByType(int type); 
 }
 

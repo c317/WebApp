@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>  <!-- This app is massive! -->
+  <named-config name="dbPool"> 
+    <!-- 连数据库的基本信息 -->
+    <property name="user">sa</property>
+    <property name="password">123456</property>
+    <property name="driverClass">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+    <property name="jdbcUrl">jdbc:sqlserver://localhost:1433;databaseName=GasInformation;</property>
+   
+    <!-- 连接池基本信息 -->
+    <property name="acquireIncrement">10</property>
+    <property name="initialPoolSize">15</property>
+    <property name="minPoolSize">10</property>
+    <property name="maxPoolSize">2000</property>
+    <property name="maxIdleTime">1800</property>
+    
+    <!-- dbPool adopts a different approach to configuring statement caching -->
+    <property name="maxStatements">20</property> 
+    <property name="maxStatementsPerConnection">10</property>
+  </named-config>
+</c3p0-config>

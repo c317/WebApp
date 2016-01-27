@@ -33,7 +33,7 @@
 					<li <%="Ywdz".equals(menu)?"class=\"active\"":""%>><a href="manageRcfx.jsp">热词分析</a></li>
 					<li <%="Xtgl".equals(menu)?"class=\"active\"":""%>><a href="manageXzwz.jsp">系统管理</a></li>
 					<li <%="Yhgl".equals(menu)?"class=\"active\"":""%>><a href="myAccount.jsp">用户管理</a></li>
-					<li <%="Wjgl".equals(menu)?"class=\"active\"":""%>><a href="manageHotNewsFile.jsp">文件管理</a></li>
+					<li <%="Wjgl".equals(menu)?"class=\"active\"":""%>><a href="manageUploadFile.action?module=1">文件管理</a></li>
 					<li <%="Fhqtsy".equals(menu)?"class=\"active\"":""%>><a href="../index.action">返回前台首页</a></li>
 			</ul>
 		</div>					

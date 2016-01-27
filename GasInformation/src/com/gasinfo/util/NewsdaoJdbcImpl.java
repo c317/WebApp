@@ -1,24 +1,18 @@
 package com.gasinfo.util;
 
 import java.sql.Connection;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
 
 import com.gasinfo.server.indexdatebase.Words;
-import com.gasinfo.util.JdbcUtils;
-import com.gasinfo.util.News;
-import com.gasinfo.util.DaoException;
-import com.gasinfo.util.PageRoll;
 import com.gasinfo.wordsanalysis.GetWords;
 
 public class NewsdaoJdbcImpl implements Newsdao, UsersDao {
@@ -3751,11 +3745,11 @@ public class NewsdaoJdbcImpl implements Newsdao, UsersDao {
 
 	@Override
 	public String uploadFileInputStorage(String title, String department,
-			int module, String url) {
+			int module, String url,String picName) {
 		Connection conn = null;
 		PreparedStatement pst = null;
 		ResultSet rs = null;
-		String sql = "insert into FileStore( fileName , department , type , URL) values(?,?,?,?)";
+		String sql = "insert into FileStore( fileName , department , type , URL , attachedName) values(?,?,?,?,?)";
 		try {
 			conn = JdbcUtils.getConnection();
 			pst = conn.prepareStatement(sql);
@@ -3763,6 +3757,7 @@ public class NewsdaoJdbcImpl implements Newsdao, UsersDao {
 			pst.setString(2, department);
 			pst.setInt(3, module);
 			pst.setString(4, url);
+			pst.setString(5, picName);
 			pst.execute();
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -3770,5 +3765,46 @@ public class NewsdaoJdbcImpl implements Newsdao, UsersDao {
 			JdbcUtils.releaseConnection(conn);
 		}
 		return "success";
+	}
+
+	@Override
+	public ArrayList<HashMap<String, Object>> getFileByType(int type) {
+		ArrayList<HashMap<String, Object>> fileList = new ArrayList<HashMap<String, Object>>();
+		Connection conn = null;
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		String sql = "";
+		switch (type) {
+		case 1:
+			sql = "select * from FileStore where type = 1 order by time DESC";
+			break;
+		case 2:
+			sql = "select * from FileStore where type = 2 order by time DESC";
+			break;
+		default:
+			sql = "select * from FileStore where type = 3 order by time DESC";
+			break;
+		}
+		try {
+			conn = JdbcUtils.getConnection();
+			ps = conn.prepareStatement(sql);
+			rs = ps.executeQuery();
+			while (rs.next()) {
+				HashMap<String, Object> file = new HashMap<String, Object>();
+				file.put("ID", rs.getInt("ID"));
+				file.put("fileName", rs.getString("fileName"));
+				file.put("department", rs.getString("department"));
+				file.put("time", rs.getString("time"));
+				file.put("type", rs.getInt("type"));
+				file.put("URL", rs.getString("URL"));
+				file.put("attachedName", rs.getString("attachedName"));
+				fileList.add(file);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			JdbcUtils.releaseConnection(conn);
+		}
+		return fileList;
 	}
 }

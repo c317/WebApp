@@ -1,9 +1,16 @@
-<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@ page import="java.util.ArrayList,java.util.HashMap"%>
+<%@ page language="java" import="java.util.*,com.gasinfo.util.*"
+	pageEncoding="utf-8"%>
+
 <%
-	String path = request.getContextPath();
-	String basePath = request.getScheme() + "://"
-			+ request.getServerName() + ":" + request.getServerPort()
-			+ path + "/";
+	ArrayList<HashMap<String, Object>> fileList = (ArrayList<HashMap<String, Object>>) request
+			.getAttribute("fileList");
+	String uploadResult = "";
+	if (request.getAttribute("tipMessage") == null
+			|| request.getAttribute("tipMessage") == "") {
+		uploadResult = "&nbsp;";
+	} else
+		uploadResult = (String) request.getAttribute("tipMessage");
 %>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
@@ -72,13 +79,14 @@
 							<li>上传文件</li>
 						</ol>
 
-						
+
 						<div class="table-responsive">
-							<form action="#" method="post" enctype="multipart/form-data" id="fileForm" name="fileForm">
+							<form action="#" method="post" enctype="multipart/form-data"
+								id="fileForm" name="fileForm">
 								<table class="table table-bordered table-hover table-striped">
 									<tr>
 										<td>标题：</td>
-										<td><input type="text" id="title" style="width:300px"
+										<td><input type="text" id="title" name="title" style="width:300px"
 											placeholder="请输入标题" /></td>
 									</tr>
 									<tr>
@@ -110,19 +118,20 @@
 
 									<tr>
 										<td>添加文件：</td>
-										<td>		
-											<input type="file" name="pic" id="pic"> 
+										<td><input type="file" name="pic" id="pic">
 										</td>
 									</tr>
 									<tr>
-										<td colspan="2" style="text-align:center">
-										<a
-											href="javascript:;" class="file">确定上传
-											 <input type="submit" name="submitFile" id="submitFile" onclick="return file(1)">
-										</a></td>
+										<td colspan="2" style="text-align:center"><a
+											href="javascript:;" class="file">确定上传 <input
+												type="submit" name="submitFile" id="submitFile"
+												onclick="return file(1)"> </a>		
+												<font color="red" style="position: relative;line-height: 20px;overflow: hidden;
+												padding: 4px 12px;display: inline-block;text-align:center;"><%=uploadResult%></font>
+										</td>	
 									</tr>
-								</table>			
-						</form>
+								</table>
+							</form>
 						</div>
 					</div>
 
@@ -136,30 +145,26 @@
 							<table class="table table-bordered table-hover table-striped">
 								<thead align="center">
 									<tr>
+										<td hidden>&npsb;</td>
 										<td>序号</td>
 										<td>标题</td>
 										<td>上传时间</td>
 										<td>来源</td>
 									</tr>
 								</thead>
-								<tr>
-									<td>1</td>
-									<td>2</td>
-									<td>3</td>
-									<td>4</td>
+								<%
+									for (int i = 0; i < fileList.size(); i++) {
+								%>
+								<tr style="text-align:center">
+									<td hidden><%=fileList.get(i).get("ID")%></td>
+									<td><%=i + 1%></td>
+									<td><%=fileList.get(i).get("fileName")%></td>
+									<td><%=fileList.get(i).get("time")%></td>
+									<td><%=fileList.get(i).get("department")%></td>
 								</tr>
-								<tr>
-									<td>1</td>
-									<td>2</td>
-									<td>3</td>
-									<td>4</td>
-								</tr>
-								<tr>
-									<td>1</td>
-									<td>2</td>
-									<td>3</td>
-									<td>4</td>
-								</tr>
+								<%
+									}
+								%>
 							</table>
 						</div>
 
